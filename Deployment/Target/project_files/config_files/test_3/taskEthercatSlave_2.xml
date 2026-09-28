@@ -1,0 +1,57 @@
+<element taskType="El2008" taskId="2" taskName="el2008" taskPath="/group_1/task/ethercat/general/el2008">
+    <slaveAddress>1003</slaveAddress>
+    <slaveName>"el2008"</slaveName>
+    <dseOutputCh_1 key="DIGITAL_OUTPUT_CH_1" path="/group_2/task/ethercat/general/el2008" value="0" overwrite="1"/>
+    <dseOutputCh_2 key="DIGITAL_OUTPUT_CH_2" path="/group_2/task/ethercat/general/el2008" value="0" overwrite="1"/>
+    <dseOutputCh_3 key="DIGITAL_OUTPUT_CH_3" path="/group_2/task/ethercat/general/el2008" value="0" overwrite="1"/>
+    <dseOutputCh_4 key="DIGITAL_OUTPUT_CH_4" path="/group_2/task/ethercat/general/el2008" value="0" overwrite="1"/>
+    <dseOutputCh_5 key="DIGITAL_OUTPUT_CH_5" path="/group_2/task/ethercat/general/el2008" value="0" overwrite="1"/>
+    <dseOutputCh_6 key="DIGITAL_OUTPUT_CH_6" path="/group_2/task/ethercat/general/el2008" value="0" overwrite="1"/>
+    <dseOutputCh_7 key="DIGITAL_OUTPUT_CH_7" path="/group_2/task/ethercat/general/el2008" value="0" overwrite="1"/>
+    <dseOutputCh_8 key="DIGITAL_OUTPUT_CH_8" path="/group_2/task/ethercat/general/el2008" value="0" overwrite="1"/>
+</element>
+<element taskType="Rfidslave" taskId="5" taskName="rfid_1" taskPath="/group_2/task/ethercat/general/rfid_1">
+    <slaveAddress>1012</slaveAddress>
+    <slaveName>"rfid_2"</slaveName>
+    <dseCurrentDeviceID             key="CURRENT_DEVICE_ID"               path="/group_2/task/ethercat/general/rfid_1" value="0" overwrite="0"/>
+    <dseCurrentTimeSecond           key="CURRENT_TIME_SECOND"             path="/group_2/task/ethercat/general/rfid_1" value="0" overwrite="0"/>
+    <dseCurrentTimeMinute           key="CURRENT_TIME_MINUTE"             path="/group_2/task/ethercat/general/rfid_1" value="0" overwrite="0"/>
+    <dseCurrentTimeHour             key="CURRENT_TIME_HOUR"               path="/group_2/task/ethercat/general/rfid_1" value="0" overwrite="0"/>
+    <dseCurrentTimeDay              key="CURRENT_TIME_DAY"                path="/group_2/task/ethercat/general/rfid_1" value="0" overwrite="0"/>
+    <dseCurrentTimeMonth            key="CURRENT_TIME_MONTH"              path="/group_2/task/ethercat/general/rfid_1" value="0" overwrite="0"/>
+    <dseCurrentTimeYear             key="CURRENT_TIME_YEAR"               path="/group_2/task/ethercat/general/rfid_1" value="0" overwrite="0"/>
+    <dseCurrentOffsetRoll           key="CURRENT_OFFSET_ROLL"             path="/group_2/task/ethercat/general/rfid_1" value="0" overwrite="0"/>
+    <dseCurrentOffsetPitch          key="CURRENT_OFFSET_PITCH"            path="/group_2/task/ethercat/general/rfid_1" value="0" overwrite="0"/>
+    <dseCurrentOffsetYaw            key="CURRENT_OFFSET_YAW"              path="/group_2/task/ethercat/general/rfid_1" value="0" overwrite="0"/>
+    <dseCurrentOffsetGrip           key="CURRENT_OFFSET_GRIP"             path="/group_2/task/ethercat/general/rfid_1" value="0" overwrite="0"/>
+    <dseCurrentNoOfUsages           key="CURRENT_NO_OF_USAGES"            path="/group_2/task/ethercat/general/rfid_1" value="0" overwrite="0"/>
+    <dseCurrentMaxUsages            key="CURRENT_MAX_USAGES"              path="/group_2/task/ethercat/general/rfid_1" value="0" overwrite="0"/>
+    <dseCurrentSterileBarrierStatus key="CURRENT_STERILE_BARRIER_MOUNTED" path="/group_2/task/ethercat/general/rfid_1" value="0" overwrite="0"/>
+    <dseCurrentInstrumentStatus     key="CURRENT_INSTRUMENT_MOUNTED"      path="/group_2/task/ethercat/general/rfid_1" value="0" overwrite="0"/>
+    <dseCurrentGripCounts           key="CURRENT_GRIP_COUNTS"             path="/group_2/task/ethercat/general/rfid_1" value="0" overwrite="0"/>
+    <dseCurrentSystemNumber         key="CURRENT_SYSTEM_NUMBER"           path="/group_2/task/ethercat/general/rfid_1" value="0" overwrite="0"/>
+    <dseCurrentDeviceUid            key="CURRENT_DEVICE_UID"              path="/group_2/task/ethercat/general/rfid_1" value="0" overwrite="0"/>
+    <dseCurrentSpareBytes           key="CURRENT_SPARE_BYTE"              path="/group_2/task/ethercat/general/rfid_1" value="0" overwrite="0"/>
+    <dseCurrentMfgDay               key="CURRENT_MFG_DAY"                 path="/group_2/task/ethercat/general/rfid_1" value="0" overwrite="0"/>
+    <dseCurrentMfgMonth             key="CURRENT_MFG_MONTH"               path="/group_2/task/ethercat/general/rfid_1" value="0" overwrite="0"/>
+    <dseCurrentMfgYear              key="CURRENT_MFG_YEAR"                path="/group_2/task/ethercat/general/rfid_1" value="0" overwrite="0"/>
+    <dseNewAcknowledge              key="NEW_ACKNOWLEDGE"                 path="/group_2/task/ethercat/general/rfid_1" value="0" overwrite="1"/>
+    <dseNewTimeSecond               key="NEW_TIME_SECOND"                 path="/group_2/task/ethercat/general/rfid_1" value="0" overwrite="1"/>
+    <dseNewTimeMinute               key="NEW_TIME_MINUTE"                 path="/group_2/task/ethercat/general/rfid_1" value="0" overwrite="1"/>
+    <dseNewTimeHour                 key="NEW_TIME_HOUR"                   path="/group_2/task/ethercat/general/rfid_1" value="0" overwrite="1"/>
+    <dseNewTimeDay                  key="NEW_TIME_DAY"                    path="/group_2/task/ethercat/general/rfid_1" value="0" overwrite="1"/>
+    <dseNewTimeMonth                key="NEW_TIME_MONTH"                  path="/group_2/task/ethercat/general/rfid_1" value="0" overwrite="1"/>
+    <dseNewTimeYear                 key="NEW_TIME_YEAR"                   path="/group_2/task/ethercat/general/rfid_1" value="0" overwrite="1"/>
+    <dseNewNoOfUsages               key="NEW_NO_OF_USAGES"                path="/group_2/task/ethercat/general/rfid_1" value="0" overwrite="1"/>
+    <dseNewDigitalOutputs           key="NEW_DIGITAL_OUTPUT"              path="/group_2/task/ethercat/general/rfid_1" value="0" overwrite="1"/>
+    <dseNewGripCounts               key="NEW_GRIP_COUNTS"                 path="/group_2/task/ethercat/general/rfid_1" value="0" overwrite="1"/>
+    <dseNewSystemNumber             key="NEW_SYSTEM_NUMBER"               path="/group_2/task/ethercat/general/rfid_1" value="0" overwrite="1"/>
+    <dseNewLedRed                   key="NEW_LED_RED"                     path="/group_2/task/ethercat/general/rfid_1" value="0" overwrite="1"/>
+    <dseNewLedGreen                 key="NEW_LED_GREEN"                   path="/group_2/task/ethercat/general/rfid_1" value="0" overwrite="1"/>
+    <dseNewLEDBlue                  key="NEW_LED_BLUE"                    path="/group_2/task/ethercat/general/rfid_1" value="0" overwrite="1"/>
+    <dseNewSpareBytes               key="NEW_SPARE_BYTE"                  path="/group_2/task/ethercat/general/rfid_1" value="0" overwrite="1"/>
+    <dseNewOffsetRoll               key="NEW_OFFSET_ROLL"                 path="/group_2/task/ethercat/general/rfid_1" value="0" overwrite="1"/>
+    <dseNewOffsetPitch              key="NEW_OFFSET_PITCH"                path="/group_2/task/ethercat/general/rfid_1" value="0" overwrite="1"/>
+    <dseNewOffsetYaw                key="NEW_OFFSET_YAW"                  path="/group_2/task/ethercat/general/rfid_1" value="0" overwrite="1"/>
+    <dseNewOffsetGrip               key="NEW_OFFSET_GRIP"                 path="/group_2/task/ethercat/general/rfid_1" value="0" overwrite="1"/>
+</element>

@@ -1,0 +1,37 @@
+<element taskType="User_1" taskId="1" taskName="user1" taskPath="/group_2/task/user/user1">
+    <dseInputCh_1          key="DIGITAL_INPUT_CH_1"   path="/group_1/task/ethercat/general/el1008" value="0" overwrite="1"/>
+    <dseInputCh_2          key="DIGITAL_INPUT_CH_2"   path="/group_1/task/ethercat/general/el1008" value="0" overwrite="1"/>
+    <dseInputCh_3          key="DIGITAL_INPUT_CH_3"   path="/group_1/task/ethercat/general/el1008" value="0" overwrite="1"/>
+    <dseInputCh_4          key="DIGITAL_INPUT_CH_4"   path="/group_1/task/ethercat/general/el1008" value="0" overwrite="1"/>
+    <dseInputCh_5          key="DIGITAL_INPUT_CH_5"   path="/group_1/task/ethercat/general/el1008" value="0" overwrite="1"/>
+    <dseInputCh_6          key="DIGITAL_INPUT_CH_6"   path="/group_1/task/ethercat/general/el1008" value="0" overwrite="1"/>
+    <dseInputCh_7          key="DIGITAL_INPUT_CH_7"   path="/group_1/task/ethercat/general/el1008" value="0" overwrite="1"/>
+    <dseInputCh_8          key="DIGITAL_INPUT_CH_8"   path="/group_1/task/ethercat/general/el1008" value="0" overwrite="1"/>
+    <dseEStopTrig          key="E_STOP_TRIG"          path="/group_2/task/user/user1"              value="0" overwrite="1"/>
+    <dseEStopClear         key="E_STOP_CLEAR"         path="/group_2/task/user/user1"              value="0" overwrite="1"/>
+    <dseDisableTrig        key="DISABLE_TRIG"         path="/group_2/task/user/user1"              value="0" overwrite="1"/>
+    <dseClearFaultTrig     key="CLEAR_FAULT_TRIG"     path="/group_2/task/user/user1"              value="0" overwrite="1"/>
+    <dseClearQuickStopTrig key="CLEAR_QUICKSTOP_TRIG" path="/group_2/task/user/user1"              value="0" overwrite="1"/>
+    <dseEnableTrig         key="ENABLE_TRIG"          path="/group_2/task/user/user1"              value="0" overwrite="1"/>
+    <dseReadyTrig          key="READY_TRIG"           path="/group_2/task/user/user1"              value="0" overwrite="1"/>
+    <dseCustomStateTrig    key="CUSTOM_STATE_TRIG"    path="/group_2/task/user/user1"              value="0" overwrite="1"/>
+    <dseStopTrig           key="STOP_TRIG"            path="/group_2/task/user/user1"              value="0" overwrite="1"/>
+</element>
+<element taskType="User_2" taskId="2" taskName="user2" taskPath="/group_2/task/user/user2">
+    <dseInputCh_1  key="DIGITAL_INPUT_CH_1"  path="/group_1/task/ethercat/general/el1008" value="0" overwrite="1"/>
+    <dseInputCh_2  key="DIGITAL_INPUT_CH_2"  path="/group_1/task/ethercat/general/el1008" value="0" overwrite="1"/>
+    <dseInputCh_3  key="DIGITAL_INPUT_CH_3"  path="/group_1/task/ethercat/general/el1008" value="0" overwrite="1"/>
+    <dseInputCh_4  key="DIGITAL_INPUT_CH_4"  path="/group_1/task/ethercat/general/el1008" value="0" overwrite="1"/>
+    <dseInputCh_5  key="DIGITAL_INPUT_CH_5"  path="/group_1/task/ethercat/general/el1008" value="0" overwrite="1"/>
+    <dseInputCh_6  key="DIGITAL_INPUT_CH_6"  path="/group_1/task/ethercat/general/el1008" value="0" overwrite="1"/>
+    <dseInputCh_7  key="DIGITAL_INPUT_CH_7"  path="/group_1/task/ethercat/general/el1008" value="0" overwrite="1"/>
+    <dseInputCh_8  key="DIGITAL_INPUT_CH_8"  path="/group_1/task/ethercat/general/el1008" value="0" overwrite="1"/>
+    <dseOutputCh_1 key="DIGITAL_OUTPUT_CH_1" path="/group_2/task/ethercat/general/el2008" value="0" overwrite="1"/>
+    <dseOutputCh_2 key="DIGITAL_OUTPUT_CH_2" path="/group_2/task/ethercat/general/el2008" value="0" overwrite="1"/>
+    <dseOutputCh_3 key="DIGITAL_OUTPUT_CH_3" path="/group_2/task/ethercat/general/el2008" value="0" overwrite="1"/>
+    <dseOutputCh_4 key="DIGITAL_OUTPUT_CH_4" path="/group_2/task/ethercat/general/el2008" value="0" overwrite="1"/>
+    <dseOutputCh_5 key="DIGITAL_OUTPUT_CH_5" path="/group_2/task/ethercat/general/el2008" value="0" overwrite="1"/>
+    <dseOutputCh_6 key="DIGITAL_OUTPUT_CH_6" path="/group_2/task/ethercat/general/el2008" value="0" overwrite="1"/>
+    <dseOutputCh_7 key="DIGITAL_OUTPUT_CH_7" path="/group_2/task/ethercat/general/el2008" value="0" overwrite="1"/>
+    <dseOutputCh_8 key="DIGITAL_OUTPUT_CH_8" path="/group_2/task/ethercat/general/el2008" value="0" overwrite="1"/>
+</element>

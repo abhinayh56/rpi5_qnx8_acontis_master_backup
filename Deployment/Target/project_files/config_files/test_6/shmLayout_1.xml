@@ -1,0 +1,30 @@
+<element mode="publish">
+    <key>keyName_1</key>
+    <path>pathName_1</path>
+    <value>value_1</value>
+    <valueType>valueDataType_1</valueType>
+</element>
+<element mode="subscribe">
+    <key>keyName_2</key>
+    <path>pathName_2</path>
+    <value>value_2</value>
+    <valueType>valueDataType_2</valueType>
+</element>
+<element mode="publish+subscribe">
+    <key>keyName_3</key>
+    <path>pathName_3</path>
+    <value>value_3</value>
+    <valueType>valueDataType_3</valueType>
+</element>
+<element mode="publish">
+    <key>keyName_4</key>
+    <path>pathName_4</path>
+    <value>value_4</value>
+    <valueType>valueDataType_4</valueType>
+</element>
+<element mode="publish">
+    <key>keyName_5</key>
+    <path>pathName_5</path>
+    <value>value_5</value>
+    <valueType>valueDataType_5</valueType>
+</element>

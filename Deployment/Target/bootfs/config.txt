@@ -1,0 +1,4 @@
+[rpi5]
+enable_uart=1
+force_turbo=1
+kernel=ifs-rpi5.bin

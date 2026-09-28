@@ -1,0 +1,82 @@
+<element taskType="PitchDrive" taskId="1" taskName="motor_1_mact" taskPath="/group_1/task/ethercat/servo/motor_1_mact">
+    <slaveAddress>1013</slaveAddress>
+    <slaveName>"motor_1_mact"</slaveName>
+    <offsetPosition>5536</offsetPosition>
+    <offsetVelocity>0</offsetVelocity>
+    <offsetTorque>0</offsetTorque>
+    <factorPosition>1303.6381388657146952829269057843</factorPosition>
+    <factorVelocity>1.0</factorVelocity>
+    <factorTorque>1.0</factorTorque>
+    <dseActualPosition  key="ACTUAL_POSITION"  path="/group_1/task/ethercat/servo/motor_1_mact" value="0" overwrite="1"/>
+    <dseActualVelocity  key="ACTUAL_VELOCITY"  path="/group_1/task/ethercat/servo/motor_1_mact" value="0" overwrite="1"/>
+    <dseActualTorque    key="ACTUAL_TORQUE"    path="/group_1/task/ethercat/servo/motor_1_mact" value="0" overwrite="1"/>
+    <dseCommandPosition key="COMMAND_POSITION" path="/group_1/task/ethercat/servo/motor_1_mact" value="0" overwrite="1"/>
+    <dseCommandVelocity key="COMMAND_VELOCITY" path="/group_1/task/ethercat/servo/motor_1_mact" value="0" overwrite="1"/>
+    <dseCommandTorque   key="COMMAND_TORQUE"   path="/group_1/task/ethercat/servo/motor_1_mact" value="0" overwrite="1"/>
+</element>
+<element taskType="PitchDrive" taskId="2" taskName="motor_2_mact" taskPath="/group_1/task/ethercat/servo/motor_2_mact">
+    <slaveAddress>1014</slaveAddress>
+    <slaveName>"motor_2_mact"</slaveName>
+    <offsetPosition>7575</offsetPosition>
+    <offsetVelocity>0</offsetVelocity>
+    <offsetTorque>0</offsetTorque>
+    <factorPosition>1303.6381388657146952829269057843</factorPosition>
+    <factorVelocity>1.0</factorVelocity>
+    <factorTorque>1.0</factorTorque>
+    <dseActualPosition  key="ACTUAL_POSITION"  path="/group_1/task/ethercat/servo/motor_2_mact" value="0" overwrite="1"/>
+    <dseActualVelocity  key="ACTUAL_VELOCITY"  path="/group_1/task/ethercat/servo/motor_2_mact" value="0" overwrite="1"/>
+    <dseActualTorque    key="ACTUAL_TORQUE"    path="/group_1/task/ethercat/servo/motor_2_mact" value="0" overwrite="1"/>
+    <dseCommandPosition key="COMMAND_POSITION" path="/group_1/task/ethercat/servo/motor_2_mact" value="0" overwrite="1"/>
+    <dseCommandVelocity key="COMMAND_VELOCITY" path="/group_1/task/ethercat/servo/motor_2_mact" value="0" overwrite="1"/>
+    <dseCommandTorque   key="COMMAND_TORQUE"   path="/group_1/task/ethercat/servo/motor_2_mact" value="0" overwrite="1"/>
+</element>
+<element taskType="PitchDrive" taskId="3" taskName="motor_3_mact" taskPath="/group_1/task/ethercat/servo/motor_3_mact">
+    <slaveAddress>1015</slaveAddress>
+    <slaveName>"motor_3_mact"</slaveName>
+    <offsetPosition>4360</offsetPosition>
+    <offsetVelocity>0</offsetVelocity>
+    <offsetTorque>0</offsetTorque>
+    <factorPosition>1303.6381388657146952829269057843</factorPosition>
+    <factorVelocity>1.0</factorVelocity>
+    <factorTorque>1.0</factorTorque>
+    <dseActualPosition  key="ACTUAL_POSITION"  path="/group_1/task/ethercat/servo/motor_3_mact" value="0" overwrite="1"/>
+    <dseActualVelocity  key="ACTUAL_VELOCITY"  path="/group_1/task/ethercat/servo/motor_3_mact" value="0" overwrite="1"/>
+    <dseActualTorque    key="ACTUAL_TORQUE"    path="/group_1/task/ethercat/servo/motor_3_mact" value="0" overwrite="1"/>
+    <dseCommandPosition key="COMMAND_POSITION" path="/group_1/task/ethercat/servo/motor_3_mact" value="0" overwrite="1"/>
+    <dseCommandVelocity key="COMMAND_VELOCITY" path="/group_1/task/ethercat/servo/motor_3_mact" value="0" overwrite="1"/>
+    <dseCommandTorque   key="COMMAND_TORQUE"   path="/group_1/task/ethercat/servo/motor_3_mact" value="0" overwrite="1"/>
+</element>
+<element taskType="PitchDrive" taskId="4" taskName="motor_4_mact" taskPath="/group_1/task/ethercat/servo/motor_4_mact">
+    <slaveAddress>1016</slaveAddress>
+    <slaveName>"motor_4_mact"</slaveName>
+    <offsetPosition>197</offsetPosition>
+    <offsetVelocity>0</offsetVelocity>
+    <offsetTorque>0</offsetTorque>
+    <factorPosition>1303.6381388657146952829269057843</factorPosition>
+    <factorVelocity>1.0</factorVelocity>
+    <factorTorque>1.0</factorTorque>
+    <dseActualPosition  key="ACTUAL_POSITION"  path="/group_1/task/ethercat/servo/motor_4_mact" value="0" overwrite="1"/>
+    <dseActualVelocity  key="ACTUAL_VELOCITY"  path="/group_1/task/ethercat/servo/motor_4_mact" value="0" overwrite="1"/>
+    <dseActualTorque    key="ACTUAL_TORQUE"    path="/group_1/task/ethercat/servo/motor_4_mact" value="0" overwrite="1"/>
+    <dseCommandPosition key="COMMAND_POSITION" path="/group_1/task/ethercat/servo/motor_4_mact" value="0" overwrite="1"/>
+    <dseCommandVelocity key="COMMAND_VELOCITY" path="/group_1/task/ethercat/servo/motor_4_mact" value="0" overwrite="1"/>
+    <dseCommandTorque   key="COMMAND_TORQUE"   path="/group_1/task/ethercat/servo/motor_4_mact" value="0" overwrite="1"/>
+</element>
+<element taskType="DenNetE" taskId="5" taskName="motor_5_den_net_e" taskPath="/group_1/task/ethercat/servo/motor_5_den_net_e">
+    <slaveAddress>1005</slaveAddress>
+    <slaveName>"motor_5_den_net_e"</slaveName>
+    <offsetPosition>0</offsetPosition>
+    <offsetVelocity>0</offsetVelocity>
+    <offsetTorque>0</offsetTorque>
+    <factorPosition>5898.24</factorPosition>
+    <factorVelocity>1.0</factorVelocity>
+    <factorTorque>1.0</factorTorque>
+    <dseActualPosition        key="ACTUAL_POSITION"          path="/group_1/task/ethercat/servo/motor_5_den_net_e" value="0" overwrite="1"/>
+    <dseActualVelocity        key="ACTUAL_VELOCITY"          path="/group_1/task/ethercat/servo/motor_5_den_net_e" value="0" overwrite="1"/>
+    <dseActualTorque          key="ACTUAL_TORQUE"            path="/group_1/task/ethercat/servo/motor_5_den_net_e" value="0" overwrite="1"/>
+    <dseCommandPosition       key="COMMAND_POSITION"         path="/group_1/task/ethercat/servo/motor_5_den_net_e" value="0" overwrite="1"/>
+    <dseCommandVelocity       key="COMMAND_VELOCITY"         path="/group_1/task/ethercat/servo/motor_5_den_net_e" value="0" overwrite="1"/>
+    <dseCommandTorque         key="COMMAND_TORQUE"           path="/group_1/task/ethercat/servo/motor_5_den_net_e" value="0" overwrite="1"/>
+    <dseTiLimitSwitchPressed  key="TI_LIMIT_SWITCH_PRESSED"  path="/group_1/task/ethercat/servo/motor_5_den_net_e" value="0" overwrite="1"/>
+    <dseTiClutchButtonPressed key="TI_CLUTCH_BUTTON_PRESSED" path="/group_1/task/ethercat/servo/motor_5_den_net_e" value="0" overwrite="1"/>
+</element>

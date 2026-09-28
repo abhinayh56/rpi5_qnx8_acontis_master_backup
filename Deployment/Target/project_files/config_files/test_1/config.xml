@@ -1,0 +1,800 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<taskGroup>
+    <element>
+        <taskEthercatSlave>
+            <element
+                taskType="El1008"
+                taskId="1"
+                taskName="el1008"
+                taskPath="/group_1/task/ethercat/general/el1008"
+                dataVectorStringA="hello, this, is, 4, 5"
+                dataVectorboolA="1, 0, 0, 0, 0, 1, 0, 5, -1, false, false, true, true, true"
+                dataVectorFloatA="1.123456, -200.123456, 3.123456"
+                dataVectorDoubleA="100.123456, -200.123456, 300.1234567891011, -400.123456"
+                dataVectorIntS8A= "-128, 127, 0, -1, 1, -100 , 100"
+                dataVectorIntS16A= "-32768, 23767, 0, -1, 1, -12345, 12345"
+                dataVectorIntS32A= "-2147483648, 2147483647, 0, 1234567, -1234567"
+                dataVectorIntS64A= "-9223372036854775808, 9223372036854775807, 0, 123456, -123456"
+                dataVectorIntU8A="0, 255, 1, 100 ,125"
+                dataVectorIntU16A="0, 65535, 1234, 12345"
+                dataVectorIntU32A="0, 4294967295, 1, 12345, 1234567"
+                dataVectorIntU64A="0, 18446744073709551615, 100, 5000, 12345678910112233"
+            >
+                <slaveAddress>1002</slaveAddress>
+                <slaveName>"el1008"</slaveName>
+                <dseInputCh_1 key="DIGITAL_INPUT_CH_1" path="/group_1/task/ethercat/general/el1008" value="0" overwrite="1"/>
+                <dseInputCh_2 key="DIGITAL_INPUT_CH_2" path="/group_1/task/ethercat/general/el1008" value="0" overwrite="1"/>
+                <dseInputCh_3 key="DIGITAL_INPUT_CH_3" path="/group_1/task/ethercat/general/el1008" value="0" overwrite="1"/>
+                <dseInputCh_4 key="DIGITAL_INPUT_CH_4" path="/group_1/task/ethercat/general/el1008" value="0" overwrite="1"/>
+                <dseInputCh_5 key="DIGITAL_INPUT_CH_5" path="/group_1/task/ethercat/general/el1008" value="0" overwrite="1"/>
+                <dseInputCh_6 key="DIGITAL_INPUT_CH_6" path="/group_1/task/ethercat/general/el1008" value="0" overwrite="1"/>
+                <dseInputCh_7 key="DIGITAL_INPUT_CH_7" path="/group_1/task/ethercat/general/el1008" value="0" overwrite="1"/>
+                <dseInputCh_8 key="DIGITAL_INPUT_CH_8" path="/group_1/task/ethercat/general/el1008" value="0" overwrite="1"/>
+
+                <dataVectorStringE>hello, this, is, 4, 5</dataVectorStringE>
+                <dataVectorboolE>1, 0, 0, 0, 0, 1, 0, 5, -1, false, false, true, true, true</dataVectorboolE>
+                <dataVectorFloatE>1.123456, -200.123456, 3.123456</dataVectorFloatE>
+                <dataVectorDoubleE>100.123456, -200.123456, 300.1234567891011, -400.123456</dataVectorDoubleE>
+                <dataVectorIntS8E>-128, 127, 0, -1, 1, -100 , 100</dataVectorIntS8E>
+                <dataVectorIntS16E>-32768, 23767, 0, -1, 1, -12345, 12345</dataVectorIntS16E>
+                <dataVectorIntS32E>-2147483648, 2147483647, 0, 1234567, -1234567</dataVectorIntS32E>
+                <dataVectorIntS64E>-9223372036854775808, 9223372036854775807, 0, 123456, -123456</dataVectorIntS64E>
+                <dataVectorIntU8E>0, 255, 1, 100 ,125</dataVectorIntU8E>
+                <dataVectorIntU16E>0, 65535, 1234, 12345</dataVectorIntU16E>
+                <dataVectorIntU32E>0, 4294967295, 1, 12345, 1234567</dataVectorIntU32E>
+                <dataVectorIntU64E>0, 18446744073709551615, 100, 5000, 12345678910114455</dataVectorIntU64E>
+            </element>
+            <element taskType="El2008" taskId="2" taskName="el2008" taskPath="/group_1/task/ethercat/general/el2008">
+                <slaveAddress>1003</slaveAddress>
+                <slaveName>"el2008"</slaveName>
+                <dseOutputCh_1 key="DIGITAL_OUTPUT_CH_1" path="/group_1/task/ethercat/general/el2008" value="0" overwrite="1"/>
+                <dseOutputCh_2 key="DIGITAL_OUTPUT_CH_2" path="/group_1/task/ethercat/general/el2008" value="0" overwrite="1"/>
+                <dseOutputCh_3 key="DIGITAL_OUTPUT_CH_3" path="/group_1/task/ethercat/general/el2008" value="0" overwrite="1"/>
+                <dseOutputCh_4 key="DIGITAL_OUTPUT_CH_4" path="/group_1/task/ethercat/general/el2008" value="0" overwrite="1"/>
+                <dseOutputCh_5 key="DIGITAL_OUTPUT_CH_5" path="/group_1/task/ethercat/general/el2008" value="0" overwrite="1"/>
+                <dseOutputCh_6 key="DIGITAL_OUTPUT_CH_6" path="/group_1/task/ethercat/general/el2008" value="0" overwrite="1"/>
+                <dseOutputCh_7 key="DIGITAL_OUTPUT_CH_7" path="/group_1/task/ethercat/general/el2008" value="0" overwrite="1"/>
+                <dseOutputCh_8 key="DIGITAL_OUTPUT_CH_8" path="/group_1/task/ethercat/general/el2008" value="0" overwrite="1"/>
+            </element>
+            <!-- <element taskType="SscIoModule" taskId="3" taskName="io_module" taskPath="/group_1/task/ethercat/general/io_module"> -->
+                <!-- <slaveAddress>1017</slaveAddress> -->
+                <!-- <slaveName>"io_module"</slaveName> -->
+                <!-- <dseFootpedalMasterClutch key="MASTER_CLUTCH"       path="/group_1/task/ethercat/general/ssciomodule" value="0"                     overwrite="1"/> -->
+                <!-- <dseFootpedalCameraClutch key="CAMERA_CLUTCH"       path="/group_1/task/ethercat/general/ssciomodule" value="0"                     overwrite="1"/> -->
+                <!-- <dseFootpedalToggleLeft   key="TOGGLE_LEFT"         path="/group_1/task/ethercat/general/ssciomodule" value="0"                     overwrite="1"/> -->
+                <!-- <dseFootpedalToggleRight  key="TOGGLE_RIGHT"        path="/group_1/task/ethercat/general/ssciomodule" value="0"                     overwrite="1"/> -->
+                <!-- <dseFootpedalCutLeft      key="CUT_LEFT"            path="/group_1/task/ethercat/general/ssciomodule" value="0"                     overwrite="1"/> -->
+                <!-- <dseFootpedalCutRight     key="CUT_RIGHT"           path="/group_1/task/ethercat/general/ssciomodule" value="0"                     overwrite="1"/> -->
+                <!-- <dseFootpedalCoagLeft     key="COAG_LEFT"           path="/group_1/task/ethercat/general/ssciomodule" value="0"                     overwrite="1"/> -->
+                <!-- <dseFootpedalCoagRight    key="COAG_RIGHT"          path="/group_1/task/ethercat/general/ssciomodule" value="0"                     overwrite="1"/> -->
+                <!-- <dseButtonEStop           key="E_STOP"              path="/group_1/task/ethercat/general/ssciomodule" value="0"                     overwrite="1"/> -->
+                <!-- <dseButtonClearFault      key="CLEAR_FAULT"         path="/group_1/task/ethercat/general/ssciomodule" value="0"                     overwrite="1"/> -->
+                <!-- <dseQualityLeft           key="QUALITY_left"        path="/group_1/task/ethercat/general/ssciomodule" value="0"                     overwrite="1"/> -->
+                <!-- <dseQualityRight          key="QUALITY_RIGHT"       path="/group_1/task/ethercat/general/ssciomodule" value="0"                     overwrite="1"/> -->
+                <!-- <dseGripValueRight        key="GRIP_VALUE_RIGHT"    path="/group_1/task/ethercat/general/ssciomodule" value="0"                     overwrite="1"/> -->
+                <!-- <dseGripValueLeft         key="GRIP_VALUE_LEFT"     path="/group_1/task/ethercat/general/ssciomodule" value="0"                     overwrite="1"/> -->
+                <!-- <dsePoseLeft              key="POSE_LEFT"           path="/group_1/task/ethercat/general/ssciomodule" value="0, 0, 0, 1.0, 0, 0, 0" overwrite="1"/> -->
+                <!-- <dsePoseRight             key="POSE_RIGHT"          path="/group_1/task/ethercat/general/ssciomodule" value="0, 0, 0, 1.0, 0, 0, 0" overwrite="1"/> -->
+                <!-- <dseHeadTracking          key="HEAD_TRACKING"       path="/group_1/task/ethercat/general/ssciomodule" value="0"                     overwrite="1"/> -->
+                <!-- <dseFingerClutchLeft      key="FINGER_CLUTCH_LEFT"  path="/group_1/task/ethercat/general/ssciomodule" value="0"                     overwrite="1"/> -->
+                <!-- <dseFingerClutchRight     key="FINGER_CLUTCH_RIGHT" path="/group_1/task/ethercat/general/ssciomodule" value="0"                     overwrite="1"/> -->
+                <!-- <dsePalmSensorLeft        key="PALM_SENSOR_LEFT"    path="/group_1/task/ethercat/general/ssciomodule" value="0"                     overwrite="1"/> -->
+                <!-- <dsePalmSensorRight       key="PALM_SENSOR_RIGHT"   path="/group_1/task/ethercat/general/ssciomodule" value="0"                     overwrite="1"/> -->
+            <!-- </element> -->
+            <element taskType="Rfidslave" taskId="4" taskName="rfid_1" taskPath="/group_1/task/ethercat/general/rfid_1">
+                <slaveAddress>1008</slaveAddress>
+                <slaveName>"rfid_1"</slaveName>
+                <dseCurrentDeviceID             key="CURRENT_DEVICE_ID"               path="/group_1/task/ethercat/general/rfid_1" value="0" overwrite="0"/>
+                <dseCurrentTimeSecond           key="CURRENT_TIME_SECOND"             path="/group_1/task/ethercat/general/rfid_1" value="0" overwrite="0"/>
+                <dseCurrentTimeMinute           key="CURRENT_TIME_MINUTE"             path="/group_1/task/ethercat/general/rfid_1" value="0" overwrite="0"/>
+                <dseCurrentTimeHour             key="CURRENT_TIME_HOUR"               path="/group_1/task/ethercat/general/rfid_1" value="0" overwrite="0"/>
+                <dseCurrentTimeDay              key="CURRENT_TIME_DAY"                path="/group_1/task/ethercat/general/rfid_1" value="0" overwrite="0"/>
+                <dseCurrentTimeMonth            key="CURRENT_TIME_MONTH"              path="/group_1/task/ethercat/general/rfid_1" value="0" overwrite="0"/>
+                <dseCurrentTimeYear             key="CURRENT_TIME_YEAR"               path="/group_1/task/ethercat/general/rfid_1" value="0" overwrite="0"/>
+                <dseCurrentOffsetRoll           key="CURRENT_OFFSET_ROLL"             path="/group_1/task/ethercat/general/rfid_1" value="0" overwrite="0"/>
+                <dseCurrentOffsetPitch          key="CURRENT_OFFSET_PITCH"            path="/group_1/task/ethercat/general/rfid_1" value="0" overwrite="0"/>
+                <dseCurrentOffsetYaw            key="CURRENT_OFFSET_YAW"              path="/group_1/task/ethercat/general/rfid_1" value="0" overwrite="0"/>
+                <dseCurrentOffsetGrip           key="CURRENT_OFFSET_GRIP"             path="/group_1/task/ethercat/general/rfid_1" value="0" overwrite="0"/>
+                <dseCurrentNoOfUsages           key="CURRENT_NO_OF_USAGES"            path="/group_1/task/ethercat/general/rfid_1" value="0" overwrite="0"/>
+                <dseCurrentMaxUsages            key="CURRENT_MAX_USAGES"              path="/group_1/task/ethercat/general/rfid_1" value="0" overwrite="0"/>
+                <dseCurrentSterileBarrierStatus key="CURRENT_STERILE_BARRIER_MOUNTED" path="/group_1/task/ethercat/general/rfid_1" value="0" overwrite="0"/>
+                <dseCurrentInstrumentStatus     key="CURRENT_INSTRUMENT_MOUNTED"      path="/group_1/task/ethercat/general/rfid_1" value="0" overwrite="0"/>
+                <dseCurrentGripCounts           key="CURRENT_GRIP_COUNTS"             path="/group_1/task/ethercat/general/rfid_1" value="0" overwrite="0"/>
+                <dseCurrentSystemNumber         key="CURRENT_SYSTEM_NUMBER"           path="/group_1/task/ethercat/general/rfid_1" value="0" overwrite="0"/>
+                <dseCurrentDeviceUid            key="CURRENT_DEVICE_UID"              path="/group_1/task/ethercat/general/rfid_1" value="0" overwrite="0"/>
+                <dseCurrentSpareBytes           key="CURRENT_SPARE_BYTE"              path="/group_1/task/ethercat/general/rfid_1" value="0" overwrite="0"/>
+                <dseCurrentMfgDay               key="CURRENT_MFG_DAY"                 path="/group_1/task/ethercat/general/rfid_1" value="0" overwrite="0"/>
+                <dseCurrentMfgMonth             key="CURRENT_MFG_MONTH"               path="/group_1/task/ethercat/general/rfid_1" value="0" overwrite="0"/>
+                <dseCurrentMfgYear              key="CURRENT_MFG_YEAR"                path="/group_1/task/ethercat/general/rfid_1" value="0" overwrite="0"/>
+                <dseNewAcknowledge              key="NEW_ACKNOWLEDGE"                 path="/group_1/task/ethercat/general/rfid_1" value="0" overwrite="1"/>
+                <dseNewTimeSecond               key="NEW_TIME_SECOND"                 path="/group_1/task/ethercat/general/rfid_1" value="0" overwrite="1"/>
+                <dseNewTimeMinute               key="NEW_TIME_MINUTE"                 path="/group_1/task/ethercat/general/rfid_1" value="0" overwrite="1"/>
+                <dseNewTimeHour                 key="NEW_TIME_HOUR"                   path="/group_1/task/ethercat/general/rfid_1" value="0" overwrite="1"/>
+                <dseNewTimeDay                  key="NEW_TIME_DAY"                    path="/group_1/task/ethercat/general/rfid_1" value="0" overwrite="1"/>
+                <dseNewTimeMonth                key="NEW_TIME_MONTH"                  path="/group_1/task/ethercat/general/rfid_1" value="0" overwrite="1"/>
+                <dseNewTimeYear                 key="NEW_TIME_YEAR"                   path="/group_1/task/ethercat/general/rfid_1" value="0" overwrite="1"/>
+                <dseNewNoOfUsages               key="NEW_NO_OF_USAGES"                path="/group_1/task/ethercat/general/rfid_1" value="0" overwrite="1"/>
+                <dseNewDigitalOutputs           key="NEW_DIGITAL_OUTPUT"              path="/group_1/task/ethercat/general/rfid_1" value="0" overwrite="1"/>
+                <dseNewGripCounts               key="NEW_GRIP_COUNTS"                 path="/group_1/task/ethercat/general/rfid_1" value="0" overwrite="1"/>
+                <dseNewSystemNumber             key="NEW_SYSTEM_NUMBER"               path="/group_1/task/ethercat/general/rfid_1" value="0" overwrite="1"/>
+                <dseNewLedRed                   key="NEW_LED_RED"                     path="/group_1/task/ethercat/general/rfid_1" value="0" overwrite="1"/>
+                <dseNewLedGreen                 key="NEW_LED_GREEN"                   path="/group_1/task/ethercat/general/rfid_1" value="0" overwrite="1"/>
+                <dseNewLEDBlue                  key="NEW_LED_BLUE"                    path="/group_1/task/ethercat/general/rfid_1" value="0" overwrite="1"/>
+                <dseNewSpareBytes               key="NEW_SPARE_BYTE"                  path="/group_1/task/ethercat/general/rfid_1" value="0" overwrite="1"/>
+                <dseNewOffsetRoll               key="NEW_OFFSET_ROLL"                 path="/group_1/task/ethercat/general/rfid_1" value="0" overwrite="1"/>
+                <dseNewOffsetPitch              key="NEW_OFFSET_PITCH"                path="/group_1/task/ethercat/general/rfid_1" value="0" overwrite="1"/>
+                <dseNewOffsetYaw                key="NEW_OFFSET_YAW"                  path="/group_1/task/ethercat/general/rfid_1" value="0" overwrite="1"/>
+                <dseNewOffsetGrip               key="NEW_OFFSET_GRIP"                 path="/group_1/task/ethercat/general/rfid_1" value="0" overwrite="1"/>
+            </element>
+            <element taskType="Rfidslave" taskId="5" taskName="rfid_2" taskPath="/group_1/task/ethercat/general/rfid_2">
+                <slaveAddress>1012</slaveAddress>
+                <slaveName>"rfid_2"</slaveName>
+                <dseCurrentDeviceID             key="CURRENT_DEVICE_ID"               path="/group_1/task/ethercat/general/rfid_2" value="0" overwrite="0"/>
+                <dseCurrentTimeSecond           key="CURRENT_TIME_SECOND"             path="/group_1/task/ethercat/general/rfid_2" value="0" overwrite="0"/>
+                <dseCurrentTimeMinute           key="CURRENT_TIME_MINUTE"             path="/group_1/task/ethercat/general/rfid_2" value="0" overwrite="0"/>
+                <dseCurrentTimeHour             key="CURRENT_TIME_HOUR"               path="/group_1/task/ethercat/general/rfid_2" value="0" overwrite="0"/>
+                <dseCurrentTimeDay              key="CURRENT_TIME_DAY"                path="/group_1/task/ethercat/general/rfid_2" value="0" overwrite="0"/>
+                <dseCurrentTimeMonth            key="CURRENT_TIME_MONTH"              path="/group_1/task/ethercat/general/rfid_2" value="0" overwrite="0"/>
+                <dseCurrentTimeYear             key="CURRENT_TIME_YEAR"               path="/group_1/task/ethercat/general/rfid_2" value="0" overwrite="0"/>
+                <dseCurrentOffsetRoll           key="CURRENT_OFFSET_ROLL"             path="/group_1/task/ethercat/general/rfid_2" value="0" overwrite="0"/>
+                <dseCurrentOffsetPitch          key="CURRENT_OFFSET_PITCH"            path="/group_1/task/ethercat/general/rfid_2" value="0" overwrite="0"/>
+                <dseCurrentOffsetYaw            key="CURRENT_OFFSET_YAW"              path="/group_1/task/ethercat/general/rfid_2" value="0" overwrite="0"/>
+                <dseCurrentOffsetGrip           key="CURRENT_OFFSET_GRIP"             path="/group_1/task/ethercat/general/rfid_2" value="0" overwrite="0"/>
+                <dseCurrentNoOfUsages           key="CURRENT_NO_OF_USAGES"            path="/group_1/task/ethercat/general/rfid_2" value="0" overwrite="0"/>
+                <dseCurrentMaxUsages            key="CURRENT_MAX_USAGES"              path="/group_1/task/ethercat/general/rfid_2" value="0" overwrite="0"/>
+                <dseCurrentSterileBarrierStatus key="CURRENT_STERILE_BARRIER_MOUNTED" path="/group_1/task/ethercat/general/rfid_2" value="0" overwrite="0"/>
+                <dseCurrentInstrumentStatus     key="CURRENT_INSTRUMENT_MOUNTED"      path="/group_1/task/ethercat/general/rfid_2" value="0" overwrite="0"/>
+                <dseCurrentGripCounts           key="CURRENT_GRIP_COUNTS"             path="/group_1/task/ethercat/general/rfid_2" value="0" overwrite="0"/>
+                <dseCurrentSystemNumber         key="CURRENT_SYSTEM_NUMBER"           path="/group_1/task/ethercat/general/rfid_2" value="0" overwrite="0"/>
+                <dseCurrentDeviceUid            key="CURRENT_DEVICE_UID"              path="/group_1/task/ethercat/general/rfid_2" value="0" overwrite="0"/>
+                <dseCurrentSpareBytes           key="CURRENT_SPARE_BYTE"              path="/group_1/task/ethercat/general/rfid_2" value="0" overwrite="0"/>
+                <dseCurrentMfgDay               key="CURRENT_MFG_DAY"                 path="/group_1/task/ethercat/general/rfid_2" value="0" overwrite="0"/>
+                <dseCurrentMfgMonth             key="CURRENT_MFG_MONTH"               path="/group_1/task/ethercat/general/rfid_2" value="0" overwrite="0"/>
+                <dseCurrentMfgYear              key="CURRENT_MFG_YEAR"                path="/group_1/task/ethercat/general/rfid_2" value="0" overwrite="0"/>
+                <dseNewAcknowledge              key="NEW_ACKNOWLEDGE"                 path="/group_1/task/ethercat/general/rfid_2" value="0" overwrite="1"/>
+                <dseNewTimeSecond               key="NEW_TIME_SECOND"                 path="/group_1/task/ethercat/general/rfid_2" value="0" overwrite="1"/>
+                <dseNewTimeMinute               key="NEW_TIME_MINUTE"                 path="/group_1/task/ethercat/general/rfid_2" value="0" overwrite="1"/>
+                <dseNewTimeHour                 key="NEW_TIME_HOUR"                   path="/group_1/task/ethercat/general/rfid_2" value="0" overwrite="1"/>
+                <dseNewTimeDay                  key="NEW_TIME_DAY"                    path="/group_1/task/ethercat/general/rfid_2" value="0" overwrite="1"/>
+                <dseNewTimeMonth                key="NEW_TIME_MONTH"                  path="/group_1/task/ethercat/general/rfid_2" value="0" overwrite="1"/>
+                <dseNewTimeYear                 key="NEW_TIME_YEAR"                   path="/group_1/task/ethercat/general/rfid_2" value="0" overwrite="1"/>
+                <dseNewNoOfUsages               key="NEW_NO_OF_USAGES"                path="/group_1/task/ethercat/general/rfid_2" value="0" overwrite="1"/>
+                <dseNewDigitalOutputs           key="NEW_DIGITAL_OUTPUT"              path="/group_1/task/ethercat/general/rfid_2" value="0" overwrite="1"/>
+                <dseNewGripCounts               key="NEW_GRIP_COUNTS"                 path="/group_1/task/ethercat/general/rfid_2" value="0" overwrite="1"/>
+                <dseNewSystemNumber             key="NEW_SYSTEM_NUMBER"               path="/group_1/task/ethercat/general/rfid_2" value="0" overwrite="1"/>
+                <dseNewLedRed                   key="NEW_LED_RED"                     path="/group_1/task/ethercat/general/rfid_2" value="0" overwrite="1"/>
+                <dseNewLedGreen                 key="NEW_LED_GREEN"                   path="/group_1/task/ethercat/general/rfid_2" value="0" overwrite="1"/>
+                <dseNewLEDBlue                  key="NEW_LED_BLUE"                    path="/group_1/task/ethercat/general/rfid_2" value="0" overwrite="1"/>
+                <dseNewSpareBytes               key="NEW_SPARE_BYTE"                  path="/group_1/task/ethercat/general/rfid_2" value="0" overwrite="1"/>
+                <dseNewOffsetRoll               key="NEW_OFFSET_ROLL"                 path="/group_1/task/ethercat/general/rfid_2" value="0" overwrite="1"/>
+                <dseNewOffsetPitch              key="NEW_OFFSET_PITCH"                path="/group_1/task/ethercat/general/rfid_2" value="0" overwrite="1"/>
+                <dseNewOffsetYaw                key="NEW_OFFSET_YAW"                  path="/group_1/task/ethercat/general/rfid_2" value="0" overwrite="1"/>
+                <dseNewOffsetGrip               key="NEW_OFFSET_GRIP"                 path="/group_1/task/ethercat/general/rfid_2" value="0" overwrite="1"/>
+            </element>
+        </taskEthercatSlave>
+        <taskEthercatSlaveServo>
+            <element taskType="PitchDrive" taskId="1" taskName="motor_1_mact" taskPath="/group_1/task/ethercat/servo/motor_1_mact">
+                <slaveAddress>1013</slaveAddress>
+                <slaveName>"motor_1_mact"</slaveName>
+                <offsetPosition>5536</offsetPosition>
+                <offsetVelocity>0</offsetVelocity>
+                <offsetTorque>0</offsetTorque>
+                <factorPosition>1303.6381388657146952829269057843</factorPosition>
+                <factorVelocity>1.0</factorVelocity>
+                <factorTorque>1.0</factorTorque>
+                <dseActualPosition  key="ACTUAL_POSITION"  path="/group_1/task/ethercat/servo/motor_1_mact" value="0" overwrite="1"/>
+                <dseActualVelocity  key="ACTUAL_VELOCITY"  path="/group_1/task/ethercat/servo/motor_1_mact" value="0" overwrite="1"/>
+                <dseActualTorque    key="ACTUAL_TORQUE"    path="/group_1/task/ethercat/servo/motor_1_mact" value="0" overwrite="1"/>
+                <dseCommandPosition key="COMMAND_POSITION" path="/group_1/task/ethercat/servo/motor_1_mact" value="0" overwrite="1"/>
+                <dseCommandVelocity key="COMMAND_VELOCITY" path="/group_1/task/ethercat/servo/motor_1_mact" value="0" overwrite="1"/>
+                <dseCommandTorque   key="COMMAND_TORQUE"   path="/group_1/task/ethercat/servo/motor_1_mact" value="0" overwrite="1"/>
+            </element>
+            <element taskType="PitchDrive" taskId="2" taskName="motor_2_mact" taskPath="/group_1/task/ethercat/servo/motor_2_mact">
+                <slaveAddress>1014</slaveAddress>
+                <slaveName>"motor_2_mact"</slaveName>
+                <offsetPosition>7575</offsetPosition>
+                <offsetVelocity>0</offsetVelocity>
+                <offsetTorque>0</offsetTorque>
+                <factorPosition>1303.6381388657146952829269057843</factorPosition>
+                <factorVelocity>1.0</factorVelocity>
+                <factorTorque>1.0</factorTorque>
+                <dseActualPosition  key="ACTUAL_POSITION"  path="/group_1/task/ethercat/servo/motor_2_mact" value="0" overwrite="1"/>
+                <dseActualVelocity  key="ACTUAL_VELOCITY"  path="/group_1/task/ethercat/servo/motor_2_mact" value="0" overwrite="1"/>
+                <dseActualTorque    key="ACTUAL_TORQUE"    path="/group_1/task/ethercat/servo/motor_2_mact" value="0" overwrite="1"/>
+                <dseCommandPosition key="COMMAND_POSITION" path="/group_1/task/ethercat/servo/motor_2_mact" value="0" overwrite="1"/>
+                <dseCommandVelocity key="COMMAND_VELOCITY" path="/group_1/task/ethercat/servo/motor_2_mact" value="0" overwrite="1"/>
+                <dseCommandTorque   key="COMMAND_TORQUE"   path="/group_1/task/ethercat/servo/motor_2_mact" value="0" overwrite="1"/>
+            </element>
+            <element taskType="PitchDrive" taskId="3" taskName="motor_3_mact" taskPath="/group_1/task/ethercat/servo/motor_3_mact">
+                <slaveAddress>1015</slaveAddress>
+                <slaveName>"motor_3_mact"</slaveName>
+                <offsetPosition>4360</offsetPosition>
+                <offsetVelocity>0</offsetVelocity>
+                <offsetTorque>0</offsetTorque>
+                <factorPosition>1303.6381388657146952829269057843</factorPosition>
+                <factorVelocity>1.0</factorVelocity>
+                <factorTorque>1.0</factorTorque>
+                <dseActualPosition  key="ACTUAL_POSITION"  path="/group_1/task/ethercat/servo/motor_3_mact" value="0" overwrite="1"/>
+                <dseActualVelocity  key="ACTUAL_VELOCITY"  path="/group_1/task/ethercat/servo/motor_3_mact" value="0" overwrite="1"/>
+                <dseActualTorque    key="ACTUAL_TORQUE"    path="/group_1/task/ethercat/servo/motor_3_mact" value="0" overwrite="1"/>
+                <dseCommandPosition key="COMMAND_POSITION" path="/group_1/task/ethercat/servo/motor_3_mact" value="0" overwrite="1"/>
+                <dseCommandVelocity key="COMMAND_VELOCITY" path="/group_1/task/ethercat/servo/motor_3_mact" value="0" overwrite="1"/>
+                <dseCommandTorque   key="COMMAND_TORQUE"   path="/group_1/task/ethercat/servo/motor_3_mact" value="0" overwrite="1"/>
+            </element>
+            <element taskType="PitchDrive" taskId="4" taskName="motor_4_mact" taskPath="/group_1/task/ethercat/servo/motor_4_mact">
+                <slaveAddress>1016</slaveAddress>
+                <slaveName>"motor_4_mact"</slaveName>
+                <offsetPosition>197</offsetPosition>
+                <offsetVelocity>0</offsetVelocity>
+                <offsetTorque>0</offsetTorque>
+                <factorPosition>1303.6381388657146952829269057843</factorPosition>
+                <factorVelocity>1.0</factorVelocity>
+                <factorTorque>1.0</factorTorque>
+                <dseActualPosition  key="ACTUAL_POSITION"  path="/group_1/task/ethercat/servo/motor_4_mact" value="0" overwrite="1"/>
+                <dseActualVelocity  key="ACTUAL_VELOCITY"  path="/group_1/task/ethercat/servo/motor_4_mact" value="0" overwrite="1"/>
+                <dseActualTorque    key="ACTUAL_TORQUE"    path="/group_1/task/ethercat/servo/motor_4_mact" value="0" overwrite="1"/>
+                <dseCommandPosition key="COMMAND_POSITION" path="/group_1/task/ethercat/servo/motor_4_mact" value="0" overwrite="1"/>
+                <dseCommandVelocity key="COMMAND_VELOCITY" path="/group_1/task/ethercat/servo/motor_4_mact" value="0" overwrite="1"/>
+                <dseCommandTorque   key="COMMAND_TORQUE"   path="/group_1/task/ethercat/servo/motor_4_mact" value="0" overwrite="1"/>
+            </element>
+            <element taskType="DenNetE" taskId="5" taskName="motor_5_den_net_e" taskPath="/group_1/task/ethercat/servo/motor_5_den_net_e">
+                <slaveAddress>1005</slaveAddress>
+                <slaveName>"motor_5_den_net_e"</slaveName>
+                <offsetPosition>0</offsetPosition>
+                <offsetVelocity>0</offsetVelocity>
+                <offsetTorque>0</offsetTorque>
+                <factorPosition>5898.24</factorPosition>
+                <factorVelocity>1.0</factorVelocity>
+                <factorTorque>1.0</factorTorque>
+                <dseActualPosition        key="ACTUAL_POSITION"          path="/group_1/task/ethercat/servo/motor_5_den_net_e" value="0" overwrite="1"/>
+                <dseActualVelocity        key="ACTUAL_VELOCITY"          path="/group_1/task/ethercat/servo/motor_5_den_net_e" value="0" overwrite="1"/>
+                <dseActualTorque          key="ACTUAL_TORQUE"            path="/group_1/task/ethercat/servo/motor_5_den_net_e" value="0" overwrite="1"/>
+                <dseCommandPosition       key="COMMAND_POSITION"         path="/group_1/task/ethercat/servo/motor_5_den_net_e" value="0" overwrite="1"/>
+                <dseCommandVelocity       key="COMMAND_VELOCITY"         path="/group_1/task/ethercat/servo/motor_5_den_net_e" value="0" overwrite="1"/>
+                <dseCommandTorque         key="COMMAND_TORQUE"           path="/group_1/task/ethercat/servo/motor_5_den_net_e" value="0" overwrite="1"/>
+                <dseTiLimitSwitchPressed  key="TI_LIMIT_SWITCH_PRESSED"  path="/group_1/task/ethercat/servo/motor_5_den_net_e" value="0" overwrite="1"/>
+                <dseTiClutchButtonPressed key="TI_CLUTCH_BUTTON_PRESSED" path="/group_1/task/ethercat/servo/motor_5_den_net_e" value="0" overwrite="1"/>
+            </element>
+            <element taskType="Ipos2401MxCat" taskId="6" taskName="motor_6_ipos2401" taskPath="/group_1/task/ethercat/servo/motor_6_ipos2401">
+                <slaveAddress>1006</slaveAddress>
+                <slaveName>"motor_6_ipos2401"</slaveName>
+                <offsetPosition>0</offsetPosition>
+                <offsetVelocity>05</offsetVelocity>
+                <offsetTorque>0349</offsetTorque>
+                <factorPosition>14198.352529577903771837597148174</factorPosition>
+                <factorVelocity>1.2798</factorVelocity>
+                <factorTorque>-1.008</factorTorque>
+                <dseActualPosition  key="ACTUAL_POSITION"  path="/group_1/task/ethercat/servo/motor_6_ipos2401" value="0" overwrite="1"/>
+                <dseActualVelocity  key="ACTUAL_VELOCITY"  path="/group_1/task/ethercat/servo/motor_6_ipos2401" value="0" overwrite="1"/>
+                <dseActualTorque    key="ACTUAL_TORQUE"    path="/group_1/task/ethercat/servo/motor_6_ipos2401" value="0" overwrite="1"/>
+                <dseCommandPosition key="COMMAND_POSITION" path="/group_1/task/ethercat/servo/motor_6_ipos2401" value="0" overwrite="1"/>
+                <dseCommandVelocity key="COMMAND_VELOCITY" path="/group_1/task/ethercat/servo/motor_6_ipos2401" value="0" overwrite="1"/>
+                <dseCommandTorque   key="COMMAND_TORQUE"   path="/group_1/task/ethercat/servo/motor_6_ipos2401" value="0" overwrite="1"/>
+            </element>
+            <element taskType="Ipos2401MxCat" taskId="7" taskName="motor_7_ipos2401" taskPath="/group_1/task/ethercat/servo/motor_7_ipos2401">
+                <slaveAddress>1007</slaveAddress>
+                <slaveName>"motor_7_ipos2401"</slaveName>
+                <offsetPosition>0</offsetPosition>
+                <offsetVelocity>0</offsetVelocity>
+                <offsetTorque>0</offsetTorque>
+                <factorPosition>14198.352529577903771837597148174</factorPosition>
+                <factorVelocity>1.0</factorVelocity>
+                <factorTorque>1.0</factorTorque>
+                <dseActualPosition  key="ACTUAL_POSITION"  path="/group_1/task/ethercat/servo/motor_7_ipos2401" value="0" overwrite="1"/>
+                <dseActualVelocity  key="ACTUAL_VELOCITY"  path="/group_1/task/ethercat/servo/motor_7_ipos2401" value="0" overwrite="1"/>
+                <dseActualTorque    key="ACTUAL_TORQUE"    path="/group_1/task/ethercat/servo/motor_7_ipos2401" value="0" overwrite="1"/>
+                <dseCommandPosition key="COMMAND_POSITION" path="/group_1/task/ethercat/servo/motor_7_ipos2401" value="0" overwrite="1"/>
+                <dseCommandVelocity key="COMMAND_VELOCITY" path="/group_1/task/ethercat/servo/motor_7_ipos2401" value="0" overwrite="1"/>
+                <dseCommandTorque   key="COMMAND_TORQUE"   path="/group_1/task/ethercat/servo/motor_7_ipos2401" value="0" overwrite="1"/>
+            </element>
+            <element taskType="Ipos2401MxCat" taskId="8" taskName="motor_8_ipos2401" taskPath="/group_1/task/ethercat/servo/motor_8_ipos2401">
+                <slaveAddress>1009</slaveAddress>
+                <slaveName>"motor_8_ipos2401"</slaveName>
+                <offsetPosition>0</offsetPosition>
+                <offsetVelocity>0</offsetVelocity>
+                <offsetTorque>0</offsetTorque>
+                <factorPosition>14198.352529577903771837597148174</factorPosition>
+                <factorVelocity>1.0</factorVelocity>
+                <factorTorque>1.0</factorTorque>
+                <dseActualPosition  key="ACTUAL_POSITION"  path="/group_1/task/ethercat/servo/motor_8_ipos2401" value="0" overwrite="1"/>
+                <dseActualVelocity  key="ACTUAL_VELOCITY"  path="/group_1/task/ethercat/servo/motor_8_ipos2401" value="0" overwrite="1"/>
+                <dseActualTorque    key="ACTUAL_TORQUE"    path="/group_1/task/ethercat/servo/motor_8_ipos2401" value="0" overwrite="1"/>
+                <dseCommandPosition key="COMMAND_POSITION" path="/group_1/task/ethercat/servo/motor_8_ipos2401" value="0" overwrite="1"/>
+                <dseCommandVelocity key="COMMAND_VELOCITY" path="/group_1/task/ethercat/servo/motor_8_ipos2401" value="0" overwrite="1"/>
+                <dseCommandTorque   key="COMMAND_TORQUE"   path="/group_1/task/ethercat/servo/motor_8_ipos2401" value="0" overwrite="1"/>
+            </element>
+            <element taskType="Ipos2401MxCat" taskId="9" taskName="motor_9_ipos2401" taskPath="/group_1/task/ethercat/servo/motor_9_ipos2401">
+                <slaveAddress>1010</slaveAddress>
+                <slaveName>"motor_9_ipos2401"</slaveName>
+                <offsetPosition>0</offsetPosition>
+                <offsetVelocity>0</offsetVelocity>
+                <offsetTorque>0</offsetTorque>
+                <factorPosition>14198.352529577903771837597148174</factorPosition>
+                <factorVelocity>1.0</factorVelocity>
+                <factorTorque>1.0</factorTorque>
+                <dseActualPosition  key="ACTUAL_POSITION"  path="/group_1/task/ethercat/servo/motor_9_ipos2401" value="0" overwrite="1"/>
+                <dseActualVelocity  key="ACTUAL_VELOCITY"  path="/group_1/task/ethercat/servo/motor_9_ipos2401" value="0" overwrite="1"/>
+                <dseActualTorque    key="ACTUAL_TORQUE"    path="/group_1/task/ethercat/servo/motor_9_ipos2401" value="0" overwrite="1"/>
+                <dseCommandPosition key="COMMAND_POSITION" path="/group_1/task/ethercat/servo/motor_9_ipos2401" value="0" overwrite="1"/>
+                <dseCommandVelocity key="COMMAND_VELOCITY" path="/group_1/task/ethercat/servo/motor_9_ipos2401" value="0" overwrite="1"/>
+                <dseCommandTorque   key="COMMAND_TORQUE"   path="/group_1/task/ethercat/servo/motor_9_ipos2401" value="0" overwrite="1"/>
+            </element>
+        </taskEthercatSlaveServo>
+        <taskRobotControl>
+            <!-- this is a comment -->
+        </taskRobotControl>
+        <taskUser>
+            <element taskType="User_1" taskId="1" taskName="user1" taskPath="/group_1/task/user/user1">
+                <dseInputCh_1          key="DIGITAL_INPUT_CH_1"   path="/group_1/task/ethercat/general/el1008" value="0" overwrite="1"/>
+                <dseInputCh_2          key="DIGITAL_INPUT_CH_2"   path="/group_1/task/ethercat/general/el1008" value="0" overwrite="1"/>
+                <dseInputCh_3          key="DIGITAL_INPUT_CH_3"   path="/group_1/task/ethercat/general/el1008" value="0" overwrite="1"/>
+                <dseInputCh_4          key="DIGITAL_INPUT_CH_4"   path="/group_1/task/ethercat/general/el1008" value="0" overwrite="1"/>
+                <dseInputCh_5          key="DIGITAL_INPUT_CH_5"   path="/group_1/task/ethercat/general/el1008" value="0" overwrite="1"/>
+                <dseInputCh_6          key="DIGITAL_INPUT_CH_6"   path="/group_1/task/ethercat/general/el1008" value="0" overwrite="1"/>
+                <dseInputCh_7          key="DIGITAL_INPUT_CH_7"   path="/group_1/task/ethercat/general/el1008" value="0" overwrite="1"/>
+                <dseInputCh_8          key="DIGITAL_INPUT_CH_8"   path="/group_1/task/ethercat/general/el1008" value="0" overwrite="1"/>
+                <dseEStopTrig          key="E_STOP_TRIG"          path="/group_1/task/user/user1"              value="0" overwrite="1"/>
+                <dseEStopClear         key="E_STOP_CLEAR"         path="/group_1/task/user/user1"              value="0" overwrite="1"/>
+                <dseDisableTrig        key="DISABLE_TRIG"         path="/group_1/task/user/user1"              value="0" overwrite="1"/>
+                <dseClearFaultTrig     key="CLEAR_FAULT_TRIG"     path="/group_1/task/user/user1"              value="0" overwrite="1"/>
+                <dseClearQuickStopTrig key="CLEAR_QUICKSTOP_TRIG" path="/group_1/task/user/user1"              value="0" overwrite="1"/>
+                <dseEnableTrig         key="ENABLE_TRIG"          path="/group_1/task/user/user1"              value="0" overwrite="1"/>
+                <dseReadyTrig          key="READY_TRIG"           path="/group_1/task/user/user1"              value="0" overwrite="1"/>
+                <dseCustomStateTrig    key="CUSTOM_STATE_TRIG"    path="/group_1/task/user/user1"              value="0" overwrite="1"/>
+                <dseStopTrig           key="STOP_TRIG"            path="/group_1/task/user/user1"              value="0" overwrite="1"/>
+            </element>
+            <element taskType="User_2" taskId="2" taskName="user2" taskPath="/group_1/task/user/user2">
+                <dseInputCh_1  key="DIGITAL_INPUT_CH_1"  path="/group_1/task/ethercat/general/el1008" value="0" overwrite="1"/>
+                <dseInputCh_2  key="DIGITAL_INPUT_CH_2"  path="/group_1/task/ethercat/general/el1008" value="0" overwrite="1"/>
+                <dseInputCh_3  key="DIGITAL_INPUT_CH_3"  path="/group_1/task/ethercat/general/el1008" value="0" overwrite="1"/>
+                <dseInputCh_4  key="DIGITAL_INPUT_CH_4"  path="/group_1/task/ethercat/general/el1008" value="0" overwrite="1"/>
+                <dseInputCh_5  key="DIGITAL_INPUT_CH_5"  path="/group_1/task/ethercat/general/el1008" value="0" overwrite="1"/>
+                <dseInputCh_6  key="DIGITAL_INPUT_CH_6"  path="/group_1/task/ethercat/general/el1008" value="0" overwrite="1"/>
+                <dseInputCh_7  key="DIGITAL_INPUT_CH_7"  path="/group_1/task/ethercat/general/el1008" value="0" overwrite="1"/>
+                <dseInputCh_8  key="DIGITAL_INPUT_CH_8"  path="/group_1/task/ethercat/general/el1008" value="0" overwrite="1"/>
+                <dseOutputCh_1 key="DIGITAL_OUTPUT_CH_1" path="/group_1/task/ethercat/general/el2008" value="0" overwrite="1"/>
+                <dseOutputCh_2 key="DIGITAL_OUTPUT_CH_2" path="/group_1/task/ethercat/general/el2008" value="0" overwrite="1"/>
+                <dseOutputCh_3 key="DIGITAL_OUTPUT_CH_3" path="/group_1/task/ethercat/general/el2008" value="0" overwrite="1"/>
+                <dseOutputCh_4 key="DIGITAL_OUTPUT_CH_4" path="/group_1/task/ethercat/general/el2008" value="0" overwrite="1"/>
+                <dseOutputCh_5 key="DIGITAL_OUTPUT_CH_5" path="/group_1/task/ethercat/general/el2008" value="0" overwrite="1"/>
+                <dseOutputCh_6 key="DIGITAL_OUTPUT_CH_6" path="/group_1/task/ethercat/general/el2008" value="0" overwrite="1"/>
+                <dseOutputCh_7 key="DIGITAL_OUTPUT_CH_7" path="/group_1/task/ethercat/general/el2008" value="0" overwrite="1"/>
+                <dseOutputCh_8 key="DIGITAL_OUTPUT_CH_8" path="/group_1/task/ethercat/general/el2008" value="0" overwrite="1"/>
+            </element>
+            <element taskType="User_3" taskId="3" taskName="user3" taskPath="/group_1/task/user/user3">
+                <dseActualPosition        key="ACTUAL_POSITION"          path="/group_1/task/ethercat/servo/motor_5_den_net_e" value="0" overwrite="0"/>
+                <dseCommandPosition       key="COMMAND_POSITION"         path="/group_1/task/ethercat/servo/motor_5_den_net_e" value="0" overwrite="0"/>
+                <dseTiLimitSwitchPressed  key="TI_LIMIT_SWITCH_PRESSED"  path="/group_1/task/ethercat/servo/motor_5_den_net_e" value="0" overwrite="0"/>
+                <dseTiClutchButtonPressed key="TI_CLUTCH_BUTTON_PRESSED" path="/group_1/task/ethercat/servo/motor_5_den_net_e" value="0" overwrite="0"/>
+            </element>
+        </taskUser>
+        <taskState>
+            <element taskType="STANDBY" taskId="101" taskName="STANDBY" taskPath="/group_1/task/fsm/STANDBY">
+                <entry>
+                    <element taskType="EcStateStandbyNs::OnEntrySubroutine" taskId="0" taskName="EcStateStandbyNs::OnEntrySubroutine_name" taskPath="EcStateStandbyNs::OnEntrySubroutine_path">
+                    </element>
+                </entry>
+                <exit>
+                    <element taskType="EcStateStandbyNs::OnExitSubroutine" taskId="0" taskName="EcStateStandbyNs::OnExitSubroutine_name" taskPath="EcStateStandbyNs::OnExitSubroutine_path">
+                    </element>
+                </exit>
+                <callback>
+                    <element taskType="EcStateStandbyNs::CallbackSubroutine" taskId="0" taskName="EcStateStandbyNs::CallbackSubroutine_name" taskPath="EcStateStandbyNs::CallbackSubroutine_path">
+                        <dseEStopTrig          key="E_STOP_TRIG"          path="/group_1/task/user/user1" value="0" overwrite="1"/>
+                        <dseEStopClear         key="E_STOP_CLEAR"         path="/group_1/task/user/user1" value="0" overwrite="1"/>
+                        <dseDisableTrig        key="DISABLE_TRIG"         path="/group_1/task/user/user1" value="0" overwrite="1"/>
+                        <dseClearFaultTrig     key="CLEAR_FAULT_TRIG"     path="/group_1/task/user/user1" value="0" overwrite="1"/>
+                        <dseClearQuickStopTrig key="CLEAR_QUICKSTOP_TRIG" path="/group_1/task/user/user1" value="0" overwrite="1"/>
+                        <dseEnableTrig         key="ENABLE_TRIG"          path="/group_1/task/user/user1" value="0" overwrite="1"/>
+                        <dseReadyTrig          key="READY_TRIG"           path="/group_1/task/user/user1" value="0" overwrite="1"/>
+                        <dseCustomStateTrig    key="CUSTOM_STATE_TRIG"    path="/group_1/task/user/user1" value="0" overwrite="1"/>
+                        <dseStopTrig           key="STOP_TRIG"            path="/group_1/task/user/user1" value="0" overwrite="1"/>
+                    </element>
+                </callback>
+                <transition>
+                    <element taskType="EcStateStandbyNs::TransitionSubroutine" taskId="0" taskName="EcStateStandbyNs::TransitionSubroutine_name" taskPath="EcStateStandbyNs::TransitionSubroutine_path">
+                        <dseEStopTrig          key="E_STOP_TRIG"          path="/group_1/task/user/user1" value="false" overwrite="true"/>
+                        <dseEStopClear         key="E_STOP_CLEAR"         path="/group_1/task/user/user1" value="false" overwrite="true"/>
+                        <dseDisableTrig        key="DISABLE_TRIG"         path="/group_1/task/user/user1" value="false" overwrite="true"/>
+                        <dseClearFaultTrig     key="CLEAR_FAULT_TRIG"     path="/group_1/task/user/user1" value="false" overwrite="true"/>
+                        <dseClearQuickStopTrig key="CLEAR_QUICKSTOP_TRIG" path="/group_1/task/user/user1" value="false" overwrite="true"/>
+                        <dseEnableTrig         key="ENABLE_TRIG"          path="/group_1/task/user/user1" value="false" overwrite="true"/>
+                        <dseReadyTrig          key="READY_TRIG"           path="/group_1/task/user/user1" value="false" overwrite="true"/>
+                        <dseCustomStateTrig    key="CUSTOM_STATE_TRIG"    path="/group_1/task/user/user1" value="false" overwrite="true"/>
+                        <dseStopTrig           key="STOP_TRIG"            path="/group_1/task/user/user1" value="false" overwrite="true"/>
+                    </element>
+                </transition>
+            </element>
+            <element taskType="DISABLING" taskId="102" taskName="DISABLING" taskPath="/group_1/task/fsm/DISABLING">
+                <entry>
+                    <element taskType="EcStateDisablingNs::OnEntrySubroutine" taskId="0" taskName="EcStateDisablingNs::OnEntrySubroutine_name" taskPath="EcStateDisablingNs::OnEntrySubroutine_path">
+                    </element>
+                </entry>
+                <exit>
+                    <element taskType="EcStateDisablingNs::OnExitSubroutine" taskId="0" taskName="EcStateDisablingNs::OnExitSubroutine_name" taskPath="EcStateDisablingNs::OnExitSubroutine_path">
+                    </element>
+                </exit>
+                <callback>
+                    <element taskType="EcStateDisablingNs::CallbackSubroutine" taskId="0" taskName="EcStateDisablingNs::CallbackSubroutine_name" taskPath="EcStateDisablingNs::CallbackSubroutine_path">
+                    </element>
+                </callback>
+                <transition>
+                    <element taskType="EcStateDisablingNs::TransitionSubroutine" taskId="0" taskName="EcStateDisablingNs::TransitionSubroutine_name" taskPath="EcStateDisablingNs::TransitionSubroutine_path">
+                        <dseEStopTrig          key="E_STOP_TRIG"          path="/group_1/task/user/user1" value="false" overwrite="true"/>
+                        <dseEStopClear         key="E_STOP_CLEAR"         path="/group_1/task/user/user1" value="false" overwrite="true"/>
+                        <dseDisableTrig        key="DISABLE_TRIG"         path="/group_1/task/user/user1" value="false" overwrite="true"/>
+                        <dseClearFaultTrig     key="CLEAR_FAULT_TRIG"     path="/group_1/task/user/user1" value="false" overwrite="true"/>
+                        <dseClearQuickStopTrig key="CLEAR_QUICKSTOP_TRIG" path="/group_1/task/user/user1" value="false" overwrite="true"/>
+                        <dseEnableTrig         key="ENABLE_TRIG"          path="/group_1/task/user/user1" value="false" overwrite="true"/>
+                        <dseReadyTrig          key="READY_TRIG"           path="/group_1/task/user/user1" value="false" overwrite="true"/>
+                        <dseCustomStateTrig    key="CUSTOM_STATE_TRIG"    path="/group_1/task/user/user1" value="false" overwrite="true"/>
+                        <dseStopTrig           key="STOP_TRIG"            path="/group_1/task/user/user1" value="false" overwrite="true"/>
+                    </element>
+                </transition>
+            </element>
+            <element taskType="DISABLED" taskId="103" taskName="DISABLED" taskPath="/group_1/task/fsm/DISABLED">
+                <entry>
+                    <element taskType="EcStateDisabledNs::OnEntrySubroutine" taskId="0" taskName="EcStateDisabledNs::OnEntrySubroutine_name" taskPath="EcStateDisabledNs::OnEntrySubroutine_path">
+                    </element>
+                </entry>
+                <exit>
+                    <element taskType="EcStateDisabledNs::OnExitSubroutine" taskId="0" taskName="EcStateDisabledNs::OnExitSubroutine_name" taskPath="EcStateDisabledNs::OnExitSubroutine_path">
+                    </element>
+                </exit>
+                <callback>
+                    <element taskType="EcStateDisabledNs::CallbackSubroutine" taskId="0" taskName="EcStateDisabledNs::CallbackSubroutine_name" taskPath="EcStateDisabledNs::CallbackSubroutine_path">
+                    </element>
+                </callback>
+                <transition>
+                    <element taskType="EcStateDisabledNs::TransitionSubroutine" taskId="0" taskName="EcStateDisabledNs::TransitionSubroutine_name" taskPath="EcStateDisabledNs::TransitionSubroutine_path">
+                        <dseEStopTrig          key="E_STOP_TRIG"          path="/group_1/task/user/user1" value="false" overwrite="true"/>
+                        <dseEStopClear         key="E_STOP_CLEAR"         path="/group_1/task/user/user1" value="false" overwrite="true"/>
+                        <dseDisableTrig        key="DISABLE_TRIG"         path="/group_1/task/user/user1" value="false" overwrite="true"/>
+                        <dseClearFaultTrig     key="CLEAR_FAULT_TRIG"     path="/group_1/task/user/user1" value="false" overwrite="true"/>
+                        <dseClearQuickStopTrig key="CLEAR_QUICKSTOP_TRIG" path="/group_1/task/user/user1" value="false" overwrite="true"/>
+                        <dseEnableTrig         key="ENABLE_TRIG"          path="/group_1/task/user/user1" value="false" overwrite="true"/>
+                        <dseReadyTrig          key="READY_TRIG"           path="/group_1/task/user/user1" value="false" overwrite="true"/>
+                        <dseCustomStateTrig    key="CUSTOM_STATE_TRIG"    path="/group_1/task/user/user1" value="false" overwrite="true"/>
+                        <dseStopTrig           key="STOP_TRIG"            path="/group_1/task/user/user1" value="false" overwrite="true"/>
+                    </element>
+                </transition>
+            </element>
+            <element taskType="ENABLING" taskId="104" taskName="ENABLING" taskPath="/group_1/task/fsm/ENABLING">
+                <entry>
+                    <element taskType="EcStateEnablingNs::OnEntrySubroutine" taskId="0" taskName="EcStateEnablingNs::OnEntrySubroutine_name" taskPath="EcStateEnablingNs::OnEntrySubroutine_path">
+                    </element>
+                </entry>
+                <exit>
+                    <element taskType="EcStateEnablingNs::OnExitSubroutine" taskId="0" taskName="EcStateEnablingNs::OnExitSubroutine_name" taskPath="EcStateEnablingNs::OnExitSubroutine_path">
+                    </element>
+                </exit>
+                <callback>
+                    <element taskType="EcStateEnablingNs::CallbackSubroutine" taskId="0" taskName="EcStateEnablingNs::CallbackSubroutine_name" taskPath="EcStateEnablingNs::CallbackSubroutine_path">
+                    </element>
+                </callback>
+                <transition>
+                    <element taskType="EcStateEnablingNs::TransitionSubroutine" taskId="0" taskName="EcStateEnablingNs::TransitionSubroutine_name" taskPath="EcStateEnablingNs::TransitionSubroutine_path">
+                        <dseEStopTrig          key="E_STOP_TRIG"          path="/group_1/task/user/user1" value="false" overwrite="true"/>
+                        <dseEStopClear         key="E_STOP_CLEAR"         path="/group_1/task/user/user1" value="false" overwrite="true"/>
+                        <dseDisableTrig        key="DISABLE_TRIG"         path="/group_1/task/user/user1" value="false" overwrite="true"/>
+                        <dseClearFaultTrig     key="CLEAR_FAULT_TRIG"     path="/group_1/task/user/user1" value="false" overwrite="true"/>
+                        <dseClearQuickStopTrig key="CLEAR_QUICKSTOP_TRIG" path="/group_1/task/user/user1" value="false" overwrite="true"/>
+                        <dseEnableTrig         key="ENABLE_TRIG"          path="/group_1/task/user/user1" value="false" overwrite="true"/>
+                        <dseReadyTrig          key="READY_TRIG"           path="/group_1/task/user/user1" value="false" overwrite="true"/>
+                        <dseCustomStateTrig    key="CUSTOM_STATE_TRIG"    path="/group_1/task/user/user1" value="false" overwrite="true"/>
+                        <dseStopTrig           key="STOP_TRIG"            path="/group_1/task/user/user1" value="false" overwrite="true"/>
+                    </element>
+                </transition>
+            </element>
+            <element taskType="ENABLED" taskId="105" taskName="ENABLED" taskPath="/group_1/task/fsm/ENABLED">
+                <entry>
+                    <element taskType="EcStateEnabledNs::OnEntrySubroutine" taskId="0" taskName="EcStateEnabledNs::OnEntrySubroutine_name" taskPath="EcStateEnabledNs::OnEntrySubroutine_path">
+                    </element>
+                </entry>
+                <exit>
+                    <element taskType="EcStateEnabledNs::OnExitSubroutine" taskId="0" taskName="EcStateEnabledNs::OnExitSubroutine_name" taskPath="EcStateEnabledNs::OnExitSubroutine_path">
+                    </element>
+                </exit>
+                <callback>
+                    <element taskType="EcStateEnabledNs::CallbackSubroutine" taskId="0" taskName="EcStateEnabledNs::CallbackSubroutine_name" taskPath="EcStateEnabledNs::CallbackSubroutine_path">
+                    </element>
+                </callback>
+                <transition>
+                    <element taskType="EcStateEnabledNs::TransitionSubroutine" taskId="0" taskName="EcStateEnabledNs::TransitionSubroutine_name" taskPath="EcStateEnabledNs::TransitionSubroutine_path">
+                        <dseEStopTrig          key="E_STOP_TRIG"          path="/group_1/task/user/user1" value="false" overwrite="true"/>
+                        <dseEStopClear         key="E_STOP_CLEAR"         path="/group_1/task/user/user1" value="false" overwrite="true"/>
+                        <dseDisableTrig        key="DISABLE_TRIG"         path="/group_1/task/user/user1" value="false" overwrite="true"/>
+                        <dseClearFaultTrig     key="CLEAR_FAULT_TRIG"     path="/group_1/task/user/user1" value="false" overwrite="true"/>
+                        <dseClearQuickStopTrig key="CLEAR_QUICKSTOP_TRIG" path="/group_1/task/user/user1" value="false" overwrite="true"/>
+                        <dseEnableTrig         key="ENABLE_TRIG"          path="/group_1/task/user/user1" value="false" overwrite="true"/>
+                        <dseReadyTrig          key="READY_TRIG"           path="/group_1/task/user/user1" value="false" overwrite="true"/>
+                        <dseCustomStateTrig    key="CUSTOM_STATE_TRIG"    path="/group_1/task/user/user1" value="false" overwrite="true"/>
+                        <dseStopTrig           key="STOP_TRIG"            path="/group_1/task/user/user1" value="false" overwrite="true"/>
+                    </element>
+                </transition>
+            </element>
+            <element taskType="READY" taskId="106" taskName="READY" taskPath="/group_1/task/fsm/READY">
+                <entry>
+                    <element taskType="EcStateReadyNs::OnEntrySubroutine" taskId="0" taskName="EcStateReadyNs::OnEntrySubroutine_name" taskPath="EcStateReadyNs::OnEntrySubroutine_path">
+                    </element>
+                </entry>
+                <exit>
+                    <element taskType="EcStateReadyNs::OnExitSubroutine" taskId="0" taskName="EcStateReadyNs::OnExitSubroutine_name" taskPath="EcStateReadyNs::OnExitSubroutine_path">
+                    </element>
+                </exit>
+                <callback>
+                    <element taskType="EcStateReadyNs::CallbackSubroutine" taskId="0" taskName="EcStateReadyNs::CallbackSubroutine_name" taskPath="EcStateReadyNs::CallbackSubroutine_path">
+                    </element>
+                </callback>
+                <transition>
+                    <element taskType="EcStateReadyNs::TransitionSubroutine" taskId="0" taskName="EcStateReadyNs::TransitionSubroutine_name" taskPath="EcStateReadyNs::TransitionSubroutine_path">
+                        <dseEStopTrig          key="E_STOP_TRIG"          path="/group_1/task/user/user1" value="false" overwrite="true"/>
+                        <dseEStopClear         key="E_STOP_CLEAR"         path="/group_1/task/user/user1" value="false" overwrite="true"/>
+                        <dseDisableTrig        key="DISABLE_TRIG"         path="/group_1/task/user/user1" value="false" overwrite="true"/>
+                        <dseClearFaultTrig     key="CLEAR_FAULT_TRIG"     path="/group_1/task/user/user1" value="false" overwrite="true"/>
+                        <dseClearQuickStopTrig key="CLEAR_QUICKSTOP_TRIG" path="/group_1/task/user/user1" value="false" overwrite="true"/>
+                        <dseEnableTrig         key="ENABLE_TRIG"          path="/group_1/task/user/user1" value="false" overwrite="true"/>
+                        <dseReadyTrig          key="READY_TRIG"           path="/group_1/task/user/user1" value="false" overwrite="true"/>
+                        <dseCustomStateTrig    key="CUSTOM_STATE_TRIG"    path="/group_1/task/user/user1" value="false" overwrite="true"/>
+                        <dseStopTrig           key="STOP_TRIG"            path="/group_1/task/user/user1" value="false" overwrite="true"/>
+                    </element>
+                </transition>
+            </element>
+            <element taskType="JOYSTICK_CONTROL" taskId="107" taskName="JOYSTICK_CONTROL" taskPath="/group_1/task/fsm/JOYSTICK_CONTROL">
+                <entry>
+                    <element taskType="EcStateJoystickControlNs::OnEntrySubroutine" taskId="0" taskName="EcStateJoystickControlNs::OnEntrySubroutine_name" taskPath="EcStateJoystickControlNs::OnEntrySubroutine_path">
+                    </element>
+                </entry>
+                <exit>
+                    <element taskType="EcStateJoystickControlNs::OnExitSubroutine" taskId="0" taskName="EcStateJoystickControlNs::OnExitSubroutine_name" taskPath="EcStateJoystickControlNs::OnExitSubroutine_path">
+                    </element>
+                </exit>
+                <callback>
+                    <element taskType="EcStateJoystickControlNs::CallbackSubroutine" taskId="0" taskName="EcStateJoystickControlNs::CallbackSubroutine_name" taskPath="EcStateJoystickControlNs::CallbackSubroutine_path">
+                    </element>
+                </callback>
+                <transition>
+                    <element taskType="EcStateJoystickControlNs::TransitionSubroutine" taskId="0" taskName="EcStateJoystickControlNs::TransitionSubroutine_name" taskPath="EcStateJoystickControlNs::TransitionSubroutine_path">
+                        <dseEStopTrig          key="E_STOP_TRIG"          path="/group_1/task/user/user1" value="false" overwrite="true"/>
+                        <dseEStopClear         key="E_STOP_CLEAR"         path="/group_1/task/user/user1" value="false" overwrite="true"/>
+                        <dseDisableTrig        key="DISABLE_TRIG"         path="/group_1/task/user/user1" value="false" overwrite="true"/>
+                        <dseClearFaultTrig     key="CLEAR_FAULT_TRIG"     path="/group_1/task/user/user1" value="false" overwrite="true"/>
+                        <dseClearQuickStopTrig key="CLEAR_QUICKSTOP_TRIG" path="/group_1/task/user/user1" value="false" overwrite="true"/>
+                        <dseEnableTrig         key="ENABLE_TRIG"          path="/group_1/task/user/user1" value="false" overwrite="true"/>
+                        <dseReadyTrig          key="READY_TRIG"           path="/group_1/task/user/user1" value="false" overwrite="true"/>
+                        <dseCustomStateTrig    key="CUSTOM_STATE_TRIG"    path="/group_1/task/user/user1" value="false" overwrite="true"/>
+                        <dseStopTrig           key="STOP_TRIG"            path="/group_1/task/user/user1" value="false" overwrite="true"/>
+                    </element>
+                </transition>
+            </element>
+            <element taskType="STOP" taskId="108" taskName="STOP" taskPath="/group_1/task/fsm/STOP">
+                <entry>
+                    <element taskType="EcStateStopNs::OnEntrySubroutine" taskId="0" taskName="EcStateStopNs::OnEntrySubroutine_name" taskPath="EcStateStopNs::OnEntrySubroutine_path">
+                    </element>
+                </entry>
+                <exit>
+                    <element taskType="EcStateStopNs::OnExitSubroutine" taskId="0" taskName="EcStateStopNs::OnExitSubroutine_name" taskPath="EcStateStopNs::OnExitSubroutine_path">
+                    </element>
+                </exit>
+                <callback>
+                    <element taskType="EcStateStopNs::CallbackSubroutine" taskId="0" taskName="EcStateStopNs::CallbackSubroutine_name" taskPath="EcStateStopNs::CallbackSubroutine_path">
+                    </element>
+                </callback>
+                <transition>
+                    <element taskType="EcStateStopNs::TransitionSubroutine" taskId="0" taskName="EcStateStopNs::TransitionSubroutine_name" taskPath="EcStateStopNs::TransitionSubroutine_path">
+                        <dseEStopTrig          key="E_STOP_TRIG"          path="/group_1/task/user/user1" value="0" overwrite="1"/>
+                        <dseEStopClear         key="E_STOP_CLEAR"         path="/group_1/task/user/user1" value="0" overwrite="1"/>
+                        <dseDisableTrig        key="DISABLE_TRIG"         path="/group_1/task/user/user1" value="0" overwrite="1"/>
+                        <dseClearFaultTrig     key="CLEAR_FAULT_TRIG"     path="/group_1/task/user/user1" value="0" overwrite="1"/>
+                        <dseClearQuickStopTrig key="CLEAR_QUICKSTOP_TRIG" path="/group_1/task/user/user1" value="0" overwrite="1"/>
+                        <dseEnableTrig         key="ENABLE_TRIG"          path="/group_1/task/user/user1" value="0" overwrite="1"/>
+                        <dseReadyTrig          key="READY_TRIG"           path="/group_1/task/user/user1" value="0" overwrite="1"/>
+                        <dseCustomStateTrig    key="CUSTOM_STATE_TRIG"    path="/group_1/task/user/user1" value="0" overwrite="1"/>
+                        <dseStopTrig           key="STOP_TRIG"            path="/group_1/task/user/user1" value="0" overwrite="1"/>
+                    </element>
+                </transition>
+            </element>
+            <element taskType="FAULT" taskId="109" taskName="FAULT" taskPath="/group_1/task/fsm/FAULT">
+                <entry>
+                    <element taskType="EcStateFaultNs::OnEntrySubroutine" taskId="0" taskName="EcStateFaultNs::OnEntrySubroutine_name" taskPath="EcStateFaultNs::OnEntrySubroutine_path">
+                    </element>
+                </entry>
+                <exit>
+                    <element taskType="EcStateFaultNs::OnExitSubroutine" taskId="0" taskName="EcStateFaultNs::OnExitSubroutine_name" taskPath="EcStateFaultNs::OnExitSubroutine_path">
+                    </element>
+                </exit>
+                <callback>
+                    <element taskType="EcStateFaultNs::CallbackSubroutine" taskId="0" taskName="EcStateFaultNs::CallbackSubroutine_name" taskPath="EcStateFaultNs::CallbackSubroutine_path">
+                    </element>
+                </callback>
+                <transition>
+                    <element taskType="EcStateFaultNs::TransitionSubroutine" taskId="0" taskName="EcStateFaultNs::TransitionSubroutine_name" taskPath="EcStateFaultNs::TransitionSubroutine_path">
+                        <dseEStopTrig          key="E_STOP_TRIG"          path="/group_1/task/user/user1" value="false" overwrite="true"/>
+                        <dseEStopClear         key="E_STOP_CLEAR"         path="/group_1/task/user/user1" value="false" overwrite="true"/>
+                        <dseDisableTrig        key="DISABLE_TRIG"         path="/group_1/task/user/user1" value="false" overwrite="true"/>
+                        <dseClearFaultTrig     key="CLEAR_FAULT_TRIG"     path="/group_1/task/user/user1" value="false" overwrite="true"/>
+                        <dseClearQuickStopTrig key="CLEAR_QUICKSTOP_TRIG" path="/group_1/task/user/user1" value="false" overwrite="true"/>
+                        <dseEnableTrig         key="ENABLE_TRIG"          path="/group_1/task/user/user1" value="false" overwrite="true"/>
+                        <dseReadyTrig          key="READY_TRIG"           path="/group_1/task/user/user1" value="false" overwrite="true"/>
+                        <dseCustomStateTrig    key="CUSTOM_STATE_TRIG"    path="/group_1/task/user/user1" value="false" overwrite="true"/>
+                        <dseStopTrig           key="STOP_TRIG"            path="/group_1/task/user/user1" value="false" overwrite="true"/>
+                    </element>
+                </transition>
+            </element>
+            <element taskType="CLEARING_FAULT" taskId="110" taskName="CLEARING_FAULT" taskPath="/group_1/task/fsm/CLEARING_FAULT">
+                <entry>
+                    <element taskType="EcStateClearingFaultNs::OnEntrySubroutine" taskId="0" taskName="EcStateClearingFaultNs::OnEntrySubroutine_name" taskPath="EcStateClearingFaultNs::OnEntrySubroutine_path">
+                    </element>
+                </entry>
+                <exit>
+                    <element taskType="EcStateClearingFaultNs::OnExitSubroutine" taskId="0" taskName="EcStateClearingFaultNs::OnExitSubroutine_name" taskPath="EcStateClearingFaultNs::OnExitSubroutine_path">
+                    </element>
+                </exit>
+                <callback>
+                    <element taskType="EcStateClearingFaultNs::CallbackSubroutine" taskId="0" taskName="EcStateClearingFaultNs::CallbackSubroutine_name" taskPath="EcStateClearingFaultNs::CallbackSubroutine_path">
+                    </element>
+                </callback>
+                <transition>
+                    <element taskType="EcStateClearingFaultNs::TransitionSubroutine" taskId="0" taskName="EcStateClearingFaultNs::TransitionSubroutine_name" taskPath="EcStateClearingFaultNs::TransitionSubroutine_path">
+                        <dseEStopTrig          key="E_STOP_TRIG"          path="/group_1/task/user/user1" value="false" overwrite="true"/>
+                        <dseEStopClear         key="E_STOP_CLEAR"         path="/group_1/task/user/user1" value="false" overwrite="true"/>
+                        <dseDisableTrig        key="DISABLE_TRIG"         path="/group_1/task/user/user1" value="false" overwrite="true"/>
+                        <dseClearFaultTrig     key="CLEAR_FAULT_TRIG"     path="/group_1/task/user/user1" value="false" overwrite="true"/>
+                        <dseClearQuickStopTrig key="CLEAR_QUICKSTOP_TRIG" path="/group_1/task/user/user1" value="false" overwrite="true"/>
+                        <dseEnableTrig         key="ENABLE_TRIG"          path="/group_1/task/user/user1" value="false" overwrite="true"/>
+                        <dseReadyTrig          key="READY_TRIG"           path="/group_1/task/user/user1" value="false" overwrite="true"/>
+                        <dseCustomStateTrig    key="CUSTOM_STATE_TRIG"    path="/group_1/task/user/user1" value="false" overwrite="true"/>
+                        <dseStopTrig           key="STOP_TRIG"            path="/group_1/task/user/user1" value="false" overwrite="true"/>
+                    </element>
+                </transition>
+            </element>
+            <element taskType="E_STOP" taskId="111" taskName="E_STOP" taskPath="/group_1/task/fsm/E_STOP">
+                <entry>
+                    <element taskType="EcStateEStopNs::OnEntrySubroutine" taskId="0" taskName="EcStateEStopNs::OnEntrySubroutine_name" taskPath="EcStateEStopNs::OnEntrySubroutine_path">
+                    </element>
+                </entry>
+                <exit>
+                    <element taskType="EcStateEStopNs::OnExitSubroutine" taskId="0" taskName="EcStateEStopNs::OnExitSubroutine_name" taskPath="EcStateEStopNs::OnExitSubroutine_path">
+                    </element>
+                </exit>
+                <callback>
+                    <element taskType="EcStateEStopNs::CallbackSubroutine" taskId="0" taskName="EcStateEStopNs::CallbackSubroutine_name" taskPath="EcStateEStopNs::CallbackSubroutine_path">
+                    </element>
+                </callback>
+                <transition>
+                    <element taskType="EcStateEStopNs::TransitionSubroutine" taskId="0" taskName="EcStateEStopNs::TransitionSubroutine_name" taskPath="EcStateEStopNs::TransitionSubroutine_path">
+                        <dseEStopTrig          key="E_STOP_TRIG"          path="/group_1/task/user/user1" value="false" overwrite="true"/>
+                        <dseEStopClear         key="E_STOP_CLEAR"         path="/group_1/task/user/user1" value="false" overwrite="true"/>
+                        <dseDisableTrig        key="DISABLE_TRIG"         path="/group_1/task/user/user1" value="false" overwrite="true"/>
+                        <dseClearFaultTrig     key="CLEAR_FAULT_TRIG"     path="/group_1/task/user/user1" value="false" overwrite="true"/>
+                        <dseClearQuickStopTrig key="CLEAR_QUICKSTOP_TRIG" path="/group_1/task/user/user1" value="false" overwrite="true"/>
+                        <dseEnableTrig         key="ENABLE_TRIG"          path="/group_1/task/user/user1" value="false" overwrite="true"/>
+                        <dseReadyTrig          key="READY_TRIG"           path="/group_1/task/user/user1" value="false" overwrite="true"/>
+                        <dseCustomStateTrig    key="CUSTOM_STATE_TRIG"    path="/group_1/task/user/user1" value="false" overwrite="true"/>
+                        <dseStopTrig           key="STOP_TRIG"            path="/group_1/task/user/user1" value="false" overwrite="true"/>
+                    </element>
+                </transition>
+            </element>
+            <element taskType="CLEARING_E_STOP" taskId="112" taskName="CLEARING_E_STOP" taskPath="/group_1/task/fsm/CLEARING_E_STOP">
+                <entry>
+                    <element taskType="EcStateClearingEStopNs::OnEntrySubroutine" taskId="0" taskName="EcStateClearingEStopNs::OnEntrySubroutine_name" taskPath="EcStateClearingEStopNs::OnEntrySubroutine_path">
+                    </element>
+                </entry>
+                <exit>
+                    <element taskType="EcStateClearingEStopNs::OnExitSubroutine" taskId="0" taskName="EcStateClearingEStopNs::OnExitSubroutine_name" taskPath="EcStateClearingEStopNs::OnExitSubroutine_path">
+                    </element>
+                </exit>
+                <callback>
+                    <element taskType="EcStateClearingEStopNs::CallbackSubroutine" taskId="0" taskName="EcStateClearingEStopNs::CallbackSubroutine_name" taskPath="EcStateClearingEStopNs::CallbackSubroutine_path">
+                    </element>
+                </callback>
+                <transition>
+                    <element taskType="EcStateClearingEStopNs::TransitionSubroutine" taskId="0" taskName="EcStateClearingEStopNs::TransitionSubroutine_name" taskPath="EcStateClearingEStopNs::TransitionSubroutine_path">
+                        <dseEStopTrig          key="E_STOP_TRIG"          path="/group_1/task/user/user1" value="false" overwrite="true"/>
+                        <dseEStopClear         key="E_STOP_CLEAR"         path="/group_1/task/user/user1" value="false" overwrite="true"/>
+                        <dseDisableTrig        key="DISABLE_TRIG"         path="/group_1/task/user/user1" value="false" overwrite="true"/>
+                        <dseClearFaultTrig     key="CLEAR_FAULT_TRIG"     path="/group_1/task/user/user1" value="false" overwrite="true"/>
+                        <dseClearQuickStopTrig key="CLEAR_QUICKSTOP_TRIG" path="/group_1/task/user/user1" value="false" overwrite="true"/>
+                        <dseEnableTrig         key="ENABLE_TRIG"          path="/group_1/task/user/user1" value="false" overwrite="true"/>
+                        <dseReadyTrig          key="READY_TRIG"           path="/group_1/task/user/user1" value="false" overwrite="true"/>
+                        <dseCustomStateTrig    key="CUSTOM_STATE_TRIG"    path="/group_1/task/user/user1" value="false" overwrite="true"/>
+                        <dseStopTrig           key="STOP_TRIG"            path="/group_1/task/user/user1" value="false" overwrite="true"/>
+                    </element>
+                </transition>
+            </element>
+            <element taskType="QUICK_STOP" taskId="113" taskName="QUICK_STOP" taskPath="/group_1/task/fsm/QUICK_STOP">
+                <entry>
+                    <element taskType="EcStateQuickStopNs::OnEntrySubroutine" taskId="0" taskName="EcStateQuickStopNs::OnEntrySubroutine_name" taskPath="EcStateQuickStopNs::OnEntrySubroutine_path">
+                    </element>
+                </entry>
+                <exit>
+                    <element taskType="EcStateQuickStopNs::OnExitSubroutine" taskId="0" taskName="EcStateQuickStopNs::OnExitSubroutine_name" taskPath="EcStateQuickStopNs::OnExitSubroutine_path">
+                    </element>
+                </exit>
+                <callback>
+                    <element taskType="EcStateQuickStopNs::CallbackSubroutine" taskId="0" taskName="EcStateQuickStopNs::CallbackSubroutine_name" taskPath="EcStateQuickStopNs::CallbackSubroutine_path">
+                    </element>
+                </callback>
+                <transition>
+                    <element taskType="EcStateQuickStopNs::TransitionSubroutine" taskId="0" taskName="EcStateQuickStopNs::TransitionSubroutine_name" taskPath="EcStateQuickStopNs::TransitionSubroutine_path">
+                        <dseEStopTrig          key="E_STOP_TRIG"          path="/group_1/task/user/user1" value="0" overwrite="1"/>
+                        <dseEStopClear         key="E_STOP_CLEAR"         path="/group_1/task/user/user1" value="0" overwrite="1"/>
+                        <dseDisableTrig        key="DISABLE_TRIG"         path="/group_1/task/user/user1" value="0" overwrite="1"/>
+                        <dseClearFaultTrig     key="CLEAR_FAULT_TRIG"     path="/group_1/task/user/user1" value="0" overwrite="1"/>
+                        <dseClearQuickStopTrig key="CLEAR_QUICKSTOP_TRIG" path="/group_1/task/user/user1" value="0" overwrite="1"/>
+                        <dseEnableTrig         key="ENABLE_TRIG"          path="/group_1/task/user/user1" value="0" overwrite="1"/>
+                        <dseReadyTrig          key="READY_TRIG"           path="/group_1/task/user/user1" value="0" overwrite="1"/>
+                        <dseCustomStateTrig    key="CUSTOM_STATE_TRIG"    path="/group_1/task/user/user1" value="0" overwrite="1"/>
+                        <dseStopTrig           key="STOP_TRIG"            path="/group_1/task/user/user1" value="0" overwrite="1"/>
+                    </element>
+                </transition>
+            </element>
+            <element taskType="CLEARING_QUICK_STOP" taskId="114" taskName="CLEARING_QUICK_STOP" taskPath="/group_1/task/fsm/CLEARING_QUICK_STOP">
+                <entry>
+                    <element taskType="EcStateClearingQuickStopNs::OnEntrySubroutine" taskId="0" taskName="EcStateClearingQuickStopNs::OnEntrySubroutine_name" taskPath="EcStateClearingQuickStopNs::OnEntrySubroutine_path">
+                    </element>
+                </entry>
+                <exit>
+                    <element taskType="EcStateClearingQuickStopNs::OnExitSubroutine" taskId="0" taskName="EcStateClearingQuickStopNs::OnExitSubroutine_name" taskPath="EcStateClearingQuickStopNs::OnExitSubroutine_path">
+                    </element>
+                </exit>
+                <callback>
+                    <element taskType="EcStateClearingQuickStopNs::CallbackSubroutine" taskId="0" taskName="EcStateClearingQuickStopNs::CallbackSubroutine_name" taskPath="EcStateClearingQuickStopNs::CallbackSubroutine_path">
+                    </element>
+                </callback>
+                <transition>
+                    <element taskType="EcStateClearingQuickStopNs::TransitionSubroutine" taskId="0" taskName="EcStateClearingQuickStopNs::TransitionSubroutine_name" taskPath="EcStateClearingQuickStopNs::TransitionSubroutine_path">
+                        <dseEStopTrig          key="E_STOP_TRIG"          path="/group_1/task/user/user1" value="0" overwrite="1"/>
+                        <dseEStopClear         key="E_STOP_CLEAR"         path="/group_1/task/user/user1" value="0" overwrite="1"/>
+                        <dseDisableTrig        key="DISABLE_TRIG"         path="/group_1/task/user/user1" value="0" overwrite="1"/>
+                        <dseClearFaultTrig     key="CLEAR_FAULT_TRIG"     path="/group_1/task/user/user1" value="0" overwrite="1"/>
+                        <dseClearQuickStopTrig key="CLEAR_QUICKSTOP_TRIG" path="/group_1/task/user/user1" value="0" overwrite="1"/>
+                        <dseEnableTrig         key="ENABLE_TRIG"          path="/group_1/task/user/user1" value="0" overwrite="1"/>
+                        <dseReadyTrig          key="READY_TRIG"           path="/group_1/task/user/user1" value="0" overwrite="1"/>
+                        <dseCustomStateTrig    key="CUSTOM_STATE_TRIG"    path="/group_1/task/user/user1" value="0" overwrite="1"/>
+                        <dseStopTrig           key="STOP_TRIG"            path="/group_1/task/user/user1" value="0" overwrite="1"/>
+                    </element>
+                </transition>
+            </element>
+            <element taskType="STATE_X" taskId="115" taskName="STATE_X" taskPath="/group_1/task/fsm/STATE_X">
+                <entry>
+                    <element taskType="EcStateXNs::OnEntrySubroutine" taskId="0" taskName="EcStateXNs::OnEntrySubroutine_name" taskPath="EcStateXNs::OnEntrySubroutine_path">
+                    </element>
+                </entry>
+                <exit>
+                    <element taskType="EcStateXNs::OnExitSubroutine" taskId="0" taskName="EcStateXNs::OnExitSubroutine_name" taskPath="EcStateXNs::OnExitSubroutine_path">
+                    </element>
+                </exit>
+                <callback>
+                    <element taskType="EcStateXNs::CallbackSubroutine" taskId="0" taskName="EcStateXNs::CallbackSubroutine_name" taskPath="EcStateXNs::CallbackSubroutine_path">
+                        <dseActualPosition        key="ACTUAL_POSITION"          path="/group_1/task/ethercat/servo/motor_5_den_net_e" value="0"     overwrite="0"/>
+                        <dseCommandPosition       key="COMMAND_POSITION"         path="/group_1/task/ethercat/servo/motor_5_den_net_e" value="0"     overwrite="0"/>
+                        <dseTiLimitSwitchPressed  key="TI_LIMIT_SWITCH_PRESSED"  path="/group_1/task/ethercat/servo/motor_5_den_net_e" value="false" overwrite="0"/>
+                        <dseTiClutchButtonPressed key="TI_CLUTCH_BUTTON_PRESSED" path="/group_1/task/ethercat/servo/motor_5_den_net_e" value="false" overwrite="0"/>
+                        <actualPosition>0</actualPosition>
+                        <commandPosition>0</commandPosition>
+                        <tiLimitSwitchPressed>false</tiLimitSwitchPressed>
+                        <tiClutchButtonPressed>false</tiClutchButtonPressed>
+                    </element>
+                </callback>
+                <transition>
+                    <element taskType="EcStateXNs::TransitionSubroutine" taskId="0" taskName="EcStateXNs::TransitionSubroutine_name" taskPath="EcStateXNs::TransitionSubroutine_path">
+                        <dseEStopTrig          key="E_STOP_TRIG"          path="/group_1/task/user/user1" value="0" overwrite="1"/>
+                        <dseEStopClear         key="E_STOP_CLEAR"         path="/group_1/task/user/user1" value="0" overwrite="1"/>
+                        <dseDisableTrig        key="DISABLE_TRIG"         path="/group_1/task/user/user1" value="0" overwrite="1"/>
+                        <dseClearFaultTrig     key="CLEAR_FAULT_TRIG"     path="/group_1/task/user/user1" value="0" overwrite="1"/>
+                        <dseClearQuickStopTrig key="CLEAR_QUICKSTOP_TRIG" path="/group_1/task/user/user1" value="0" overwrite="1"/>
+                        <dseEnableTrig         key="ENABLE_TRIG"          path="/group_1/task/user/user1" value="0" overwrite="1"/>
+                        <dseReadyTrig          key="READY_TRIG"           path="/group_1/task/user/user1" value="0" overwrite="1"/>
+                        <dseCustomStateTrig    key="CUSTOM_STATE_TRIG"    path="/group_1/task/user/user1" value="0" overwrite="1"/>
+                        <dseStopTrig           key="STOP_TRIG"            path="/group_1/task/user/user1" value="0" overwrite="1"/>
+                    </element>
+                </transition>
+            </element>
+        </taskState>
+        <taskInterface>
+            <!-- this is a comment -->
+        </taskInterface>
+    </element>
+</taskGroup>

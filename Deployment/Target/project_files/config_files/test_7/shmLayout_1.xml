@@ -1,0 +1,4 @@
+<dseActualPosition        key="ACTUAL_POSITION"          path="/group_1/task/ethercat/servo/motor_5_den_net_e" value="0" overwrite="1"/>
+<dseCommandPosition       key="COMMAND_POSITION"         path="/group_1/task/ethercat/servo/motor_5_den_net_e" value="0" overwrite="1"/>
+<dseTiLimitSwitchPressed  key="TI_LIMIT_SWITCH_PRESSED"  path="/group_1/task/ethercat/servo/motor_5_den_net_e" value="0" overwrite="1"/>
+<dseTiClutchButtonPressed key="TI_CLUTCH_BUTTON_PRESSED" path="/group_1/task/ethercat/servo/motor_5_den_net_e" value="0" overwrite="1"/>

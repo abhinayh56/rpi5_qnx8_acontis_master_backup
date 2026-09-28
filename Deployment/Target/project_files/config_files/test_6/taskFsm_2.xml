@@ -1,0 +1,422 @@
+<element taskType="STANDBY" taskId="101" taskName="STANDBY" taskPath="/group_2/task/fsm/STANDBY">
+    <entry>
+        <element taskType="EcStateStandbyNs::OnEntrySubroutine" taskId="0" taskName="EcStateStandbyNs::OnEntrySubroutine_name" taskPath="EcStateStandbyNs::OnEntrySubroutine_path">
+        </element>
+    </entry>
+    <exit>
+        <element taskType="EcStateStandbyNs::OnExitSubroutine" taskId="0" taskName="EcStateStandbyNs::OnExitSubroutine_name" taskPath="EcStateStandbyNs::OnExitSubroutine_path">
+        </element>
+    </exit>
+    <callback>
+        <element taskType="EcStateStandbyNs::CallbackSubroutine" taskId="0" taskName="EcStateStandbyNs::CallbackSubroutine_name" taskPath="EcStateStandbyNs::CallbackSubroutine_path">
+            <dseEStopTrig          key="E_STOP_TRIG"          path="/group_2/task/user/user1" value="0" overwrite="1"/>
+            <dseEStopClear         key="E_STOP_CLEAR"         path="/group_2/task/user/user1" value="0" overwrite="1"/>
+            <dseDisableTrig        key="DISABLE_TRIG"         path="/group_2/task/user/user1" value="0" overwrite="1"/>
+            <dseClearFaultTrig     key="CLEAR_FAULT_TRIG"     path="/group_2/task/user/user1" value="0" overwrite="1"/>
+            <dseClearQuickStopTrig key="CLEAR_QUICKSTOP_TRIG" path="/group_2/task/user/user1" value="0" overwrite="1"/>
+            <dseEnableTrig         key="ENABLE_TRIG"          path="/group_2/task/user/user1" value="0" overwrite="1"/>
+            <dseReadyTrig          key="READY_TRIG"           path="/group_2/task/user/user1" value="0" overwrite="1"/>
+            <dseCustomStateTrig    key="CUSTOM_STATE_TRIG"    path="/group_2/task/user/user1" value="0" overwrite="1"/>
+            <dseStopTrig           key="STOP_TRIG"            path="/group_2/task/user/user1" value="0" overwrite="1"/>
+        </element>
+    </callback>
+    <transition>
+        <element taskType="EcStateStandbyNs::TransitionSubroutine" taskId="0" taskName="EcStateStandbyNs::TransitionSubroutine_name" taskPath="EcStateStandbyNs::TransitionSubroutine_path">
+            <dseEStopTrig          key="E_STOP_TRIG"          path="/group_2/task/user/user1" value="false" overwrite="true"/>
+            <dseEStopClear         key="E_STOP_CLEAR"         path="/group_2/task/user/user1" value="false" overwrite="true"/>
+            <dseDisableTrig        key="DISABLE_TRIG"         path="/group_2/task/user/user1" value="false" overwrite="true"/>
+            <dseClearFaultTrig     key="CLEAR_FAULT_TRIG"     path="/group_2/task/user/user1" value="false" overwrite="true"/>
+            <dseClearQuickStopTrig key="CLEAR_QUICKSTOP_TRIG" path="/group_2/task/user/user1" value="false" overwrite="true"/>
+            <dseEnableTrig         key="ENABLE_TRIG"          path="/group_2/task/user/user1" value="false" overwrite="true"/>
+            <dseReadyTrig          key="READY_TRIG"           path="/group_2/task/user/user1" value="false" overwrite="true"/>
+            <dseCustomStateTrig    key="CUSTOM_STATE_TRIG"    path="/group_2/task/user/user1" value="false" overwrite="true"/>
+            <dseStopTrig           key="STOP_TRIG"            path="/group_2/task/user/user1" value="false" overwrite="true"/>
+        </element>
+    </transition>
+</element>
+<element taskType="DISABLING" taskId="102" taskName="DISABLING" taskPath="/group_2/task/fsm/DISABLING">
+    <entry>
+        <element taskType="EcStateDisablingNs::OnEntrySubroutine" taskId="0" taskName="EcStateDisablingNs::OnEntrySubroutine_name" taskPath="EcStateDisablingNs::OnEntrySubroutine_path">
+        </element>
+    </entry>
+    <exit>
+        <element taskType="EcStateDisablingNs::OnExitSubroutine" taskId="0" taskName="EcStateDisablingNs::OnExitSubroutine_name" taskPath="EcStateDisablingNs::OnExitSubroutine_path">
+        </element>
+    </exit>
+    <callback>
+        <element taskType="EcStateDisablingNs::CallbackSubroutine" taskId="0" taskName="EcStateDisablingNs::CallbackSubroutine_name" taskPath="EcStateDisablingNs::CallbackSubroutine_path">
+        </element>
+    </callback>
+    <transition>
+        <element taskType="EcStateDisablingNs::TransitionSubroutine" taskId="0" taskName="EcStateDisablingNs::TransitionSubroutine_name" taskPath="EcStateDisablingNs::TransitionSubroutine_path">
+            <dseEStopTrig          key="E_STOP_TRIG"          path="/group_2/task/user/user1" value="false" overwrite="true"/>
+            <dseEStopClear         key="E_STOP_CLEAR"         path="/group_2/task/user/user1" value="false" overwrite="true"/>
+            <dseDisableTrig        key="DISABLE_TRIG"         path="/group_2/task/user/user1" value="false" overwrite="true"/>
+            <dseClearFaultTrig     key="CLEAR_FAULT_TRIG"     path="/group_2/task/user/user1" value="false" overwrite="true"/>
+            <dseClearQuickStopTrig key="CLEAR_QUICKSTOP_TRIG" path="/group_2/task/user/user1" value="false" overwrite="true"/>
+            <dseEnableTrig         key="ENABLE_TRIG"          path="/group_2/task/user/user1" value="false" overwrite="true"/>
+            <dseReadyTrig          key="READY_TRIG"           path="/group_2/task/user/user1" value="false" overwrite="true"/>
+            <dseCustomStateTrig    key="CUSTOM_STATE_TRIG"    path="/group_2/task/user/user1" value="false" overwrite="true"/>
+            <dseStopTrig           key="STOP_TRIG"            path="/group_2/task/user/user1" value="false" overwrite="true"/>
+        </element>
+    </transition>
+</element>
+<element taskType="DISABLED" taskId="103" taskName="DISABLED" taskPath="/group_2/task/fsm/DISABLED">
+    <entry>
+        <element taskType="EcStateDisabledNs::OnEntrySubroutine" taskId="0" taskName="EcStateDisabledNs::OnEntrySubroutine_name" taskPath="EcStateDisabledNs::OnEntrySubroutine_path">
+        </element>
+    </entry>
+    <exit>
+        <element taskType="EcStateDisabledNs::OnExitSubroutine" taskId="0" taskName="EcStateDisabledNs::OnExitSubroutine_name" taskPath="EcStateDisabledNs::OnExitSubroutine_path">
+        </element>
+    </exit>
+    <callback>
+        <element taskType="EcStateDisabledNs::CallbackSubroutine" taskId="0" taskName="EcStateDisabledNs::CallbackSubroutine_name" taskPath="EcStateDisabledNs::CallbackSubroutine_path">
+        </element>
+    </callback>
+    <transition>
+        <element taskType="EcStateDisabledNs::TransitionSubroutine" taskId="0" taskName="EcStateDisabledNs::TransitionSubroutine_name" taskPath="EcStateDisabledNs::TransitionSubroutine_path">
+            <dseEStopTrig          key="E_STOP_TRIG"          path="/group_2/task/user/user1" value="false" overwrite="true"/>
+            <dseEStopClear         key="E_STOP_CLEAR"         path="/group_2/task/user/user1" value="false" overwrite="true"/>
+            <dseDisableTrig        key="DISABLE_TRIG"         path="/group_2/task/user/user1" value="false" overwrite="true"/>
+            <dseClearFaultTrig     key="CLEAR_FAULT_TRIG"     path="/group_2/task/user/user1" value="false" overwrite="true"/>
+            <dseClearQuickStopTrig key="CLEAR_QUICKSTOP_TRIG" path="/group_2/task/user/user1" value="false" overwrite="true"/>
+            <dseEnableTrig         key="ENABLE_TRIG"          path="/group_2/task/user/user1" value="false" overwrite="true"/>
+            <dseReadyTrig          key="READY_TRIG"           path="/group_2/task/user/user1" value="false" overwrite="true"/>
+            <dseCustomStateTrig    key="CUSTOM_STATE_TRIG"    path="/group_2/task/user/user1" value="false" overwrite="true"/>
+            <dseStopTrig           key="STOP_TRIG"            path="/group_2/task/user/user1" value="false" overwrite="true"/>
+        </element>
+    </transition>
+</element>
+<element taskType="ENABLING" taskId="104" taskName="ENABLING" taskPath="/group_2/task/fsm/ENABLING">
+    <entry>
+        <element taskType="EcStateEnablingNs::OnEntrySubroutine" taskId="0" taskName="EcStateEnablingNs::OnEntrySubroutine_name" taskPath="EcStateEnablingNs::OnEntrySubroutine_path">
+        </element>
+    </entry>
+    <exit>
+        <element taskType="EcStateEnablingNs::OnExitSubroutine" taskId="0" taskName="EcStateEnablingNs::OnExitSubroutine_name" taskPath="EcStateEnablingNs::OnExitSubroutine_path">
+        </element>
+    </exit>
+    <callback>
+        <element taskType="EcStateEnablingNs::CallbackSubroutine" taskId="0" taskName="EcStateEnablingNs::CallbackSubroutine_name" taskPath="EcStateEnablingNs::CallbackSubroutine_path">
+        </element>
+    </callback>
+    <transition>
+        <element taskType="EcStateEnablingNs::TransitionSubroutine" taskId="0" taskName="EcStateEnablingNs::TransitionSubroutine_name" taskPath="EcStateEnablingNs::TransitionSubroutine_path">
+            <dseEStopTrig          key="E_STOP_TRIG"          path="/group_2/task/user/user1" value="false" overwrite="true"/>
+            <dseEStopClear         key="E_STOP_CLEAR"         path="/group_2/task/user/user1" value="false" overwrite="true"/>
+            <dseDisableTrig        key="DISABLE_TRIG"         path="/group_2/task/user/user1" value="false" overwrite="true"/>
+            <dseClearFaultTrig     key="CLEAR_FAULT_TRIG"     path="/group_2/task/user/user1" value="false" overwrite="true"/>
+            <dseClearQuickStopTrig key="CLEAR_QUICKSTOP_TRIG" path="/group_2/task/user/user1" value="false" overwrite="true"/>
+            <dseEnableTrig         key="ENABLE_TRIG"          path="/group_2/task/user/user1" value="false" overwrite="true"/>
+            <dseReadyTrig          key="READY_TRIG"           path="/group_2/task/user/user1" value="false" overwrite="true"/>
+            <dseCustomStateTrig    key="CUSTOM_STATE_TRIG"    path="/group_2/task/user/user1" value="false" overwrite="true"/>
+            <dseStopTrig           key="STOP_TRIG"            path="/group_2/task/user/user1" value="false" overwrite="true"/>
+        </element>
+    </transition>
+</element>
+<element taskType="ENABLED" taskId="105" taskName="ENABLED" taskPath="/group_2/task/fsm/ENABLED">
+    <entry>
+        <element taskType="EcStateEnabledNs::OnEntrySubroutine" taskId="0" taskName="EcStateEnabledNs::OnEntrySubroutine_name" taskPath="EcStateEnabledNs::OnEntrySubroutine_path">
+        </element>
+    </entry>
+    <exit>
+        <element taskType="EcStateEnabledNs::OnExitSubroutine" taskId="0" taskName="EcStateEnabledNs::OnExitSubroutine_name" taskPath="EcStateEnabledNs::OnExitSubroutine_path">
+        </element>
+    </exit>
+    <callback>
+        <element taskType="EcStateEnabledNs::CallbackSubroutine" taskId="0" taskName="EcStateEnabledNs::CallbackSubroutine_name" taskPath="EcStateEnabledNs::CallbackSubroutine_path">
+        </element>
+    </callback>
+    <transition>
+        <element taskType="EcStateEnabledNs::TransitionSubroutine" taskId="0" taskName="EcStateEnabledNs::TransitionSubroutine_name" taskPath="EcStateEnabledNs::TransitionSubroutine_path">
+            <dseEStopTrig          key="E_STOP_TRIG"          path="/group_2/task/user/user1" value="false" overwrite="true"/>
+            <dseEStopClear         key="E_STOP_CLEAR"         path="/group_2/task/user/user1" value="false" overwrite="true"/>
+            <dseDisableTrig        key="DISABLE_TRIG"         path="/group_2/task/user/user1" value="false" overwrite="true"/>
+            <dseClearFaultTrig     key="CLEAR_FAULT_TRIG"     path="/group_2/task/user/user1" value="false" overwrite="true"/>
+            <dseClearQuickStopTrig key="CLEAR_QUICKSTOP_TRIG" path="/group_2/task/user/user1" value="false" overwrite="true"/>
+            <dseEnableTrig         key="ENABLE_TRIG"          path="/group_2/task/user/user1" value="false" overwrite="true"/>
+            <dseReadyTrig          key="READY_TRIG"           path="/group_2/task/user/user1" value="false" overwrite="true"/>
+            <dseCustomStateTrig    key="CUSTOM_STATE_TRIG"    path="/group_2/task/user/user1" value="false" overwrite="true"/>
+            <dseStopTrig           key="STOP_TRIG"            path="/group_2/task/user/user1" value="false" overwrite="true"/>
+        </element>
+    </transition>
+</element>
+<element taskType="READY" taskId="106" taskName="READY" taskPath="/group_2/task/fsm/READY">
+    <entry>
+        <element taskType="EcStateReadyNs::OnEntrySubroutine" taskId="0" taskName="EcStateReadyNs::OnEntrySubroutine_name" taskPath="EcStateReadyNs::OnEntrySubroutine_path">
+        </element>
+    </entry>
+    <exit>
+        <element taskType="EcStateReadyNs::OnExitSubroutine" taskId="0" taskName="EcStateReadyNs::OnExitSubroutine_name" taskPath="EcStateReadyNs::OnExitSubroutine_path">
+        </element>
+    </exit>
+    <callback>
+        <element taskType="EcStateReadyNs::CallbackSubroutine" taskId="0" taskName="EcStateReadyNs::CallbackSubroutine_name" taskPath="EcStateReadyNs::CallbackSubroutine_path">
+        </element>
+    </callback>
+    <transition>
+        <element taskType="EcStateReadyNs::TransitionSubroutine" taskId="0" taskName="EcStateReadyNs::TransitionSubroutine_name" taskPath="EcStateReadyNs::TransitionSubroutine_path">
+            <dseEStopTrig          key="E_STOP_TRIG"          path="/group_2/task/user/user1" value="false" overwrite="true"/>
+            <dseEStopClear         key="E_STOP_CLEAR"         path="/group_2/task/user/user1" value="false" overwrite="true"/>
+            <dseDisableTrig        key="DISABLE_TRIG"         path="/group_2/task/user/user1" value="false" overwrite="true"/>
+            <dseClearFaultTrig     key="CLEAR_FAULT_TRIG"     path="/group_2/task/user/user1" value="false" overwrite="true"/>
+            <dseClearQuickStopTrig key="CLEAR_QUICKSTOP_TRIG" path="/group_2/task/user/user1" value="false" overwrite="true"/>
+            <dseEnableTrig         key="ENABLE_TRIG"          path="/group_2/task/user/user1" value="false" overwrite="true"/>
+            <dseReadyTrig          key="READY_TRIG"           path="/group_2/task/user/user1" value="false" overwrite="true"/>
+            <dseCustomStateTrig    key="CUSTOM_STATE_TRIG"    path="/group_2/task/user/user1" value="false" overwrite="true"/>
+            <dseStopTrig           key="STOP_TRIG"            path="/group_2/task/user/user1" value="false" overwrite="true"/>
+        </element>
+    </transition>
+</element>
+<element taskType="JOYSTICK_CONTROL" taskId="107" taskName="JOYSTICK_CONTROL" taskPath="/group_2/task/fsm/JOYSTICK_CONTROL">
+    <entry>
+        <element taskType="EcStateJoystickControlNs::OnEntrySubroutine" taskId="0" taskName="EcStateJoystickControlNs::OnEntrySubroutine_name" taskPath="EcStateJoystickControlNs::OnEntrySubroutine_path">
+        </element>
+    </entry>
+    <exit>
+        <element taskType="EcStateJoystickControlNs::OnExitSubroutine" taskId="0" taskName="EcStateJoystickControlNs::OnExitSubroutine_name" taskPath="EcStateJoystickControlNs::OnExitSubroutine_path">
+        </element>
+    </exit>
+    <callback>
+        <element taskType="EcStateJoystickControlNs::CallbackSubroutine" taskId="0" taskName="EcStateJoystickControlNs::CallbackSubroutine_name" taskPath="EcStateJoystickControlNs::CallbackSubroutine_path">
+        </element>
+    </callback>
+    <transition>
+        <element taskType="EcStateJoystickControlNs::TransitionSubroutine" taskId="0" taskName="EcStateJoystickControlNs::TransitionSubroutine_name" taskPath="EcStateJoystickControlNs::TransitionSubroutine_path">
+            <dseEStopTrig          key="E_STOP_TRIG"          path="/group_2/task/user/user1" value="false" overwrite="true"/>
+            <dseEStopClear         key="E_STOP_CLEAR"         path="/group_2/task/user/user1" value="false" overwrite="true"/>
+            <dseDisableTrig        key="DISABLE_TRIG"         path="/group_2/task/user/user1" value="false" overwrite="true"/>
+            <dseClearFaultTrig     key="CLEAR_FAULT_TRIG"     path="/group_2/task/user/user1" value="false" overwrite="true"/>
+            <dseClearQuickStopTrig key="CLEAR_QUICKSTOP_TRIG" path="/group_2/task/user/user1" value="false" overwrite="true"/>
+            <dseEnableTrig         key="ENABLE_TRIG"          path="/group_2/task/user/user1" value="false" overwrite="true"/>
+            <dseReadyTrig          key="READY_TRIG"           path="/group_2/task/user/user1" value="false" overwrite="true"/>
+            <dseCustomStateTrig    key="CUSTOM_STATE_TRIG"    path="/group_2/task/user/user1" value="false" overwrite="true"/>
+            <dseStopTrig           key="STOP_TRIG"            path="/group_2/task/user/user1" value="false" overwrite="true"/>
+        </element>
+    </transition>
+</element>
+<element taskType="STOP" taskId="108" taskName="STOP" taskPath="/group_2/task/fsm/STOP">
+    <entry>
+        <element taskType="EcStateStopNs::OnEntrySubroutine" taskId="0" taskName="EcStateStopNs::OnEntrySubroutine_name" taskPath="EcStateStopNs::OnEntrySubroutine_path">
+        </element>
+    </entry>
+    <exit>
+        <element taskType="EcStateStopNs::OnExitSubroutine" taskId="0" taskName="EcStateStopNs::OnExitSubroutine_name" taskPath="EcStateStopNs::OnExitSubroutine_path">
+        </element>
+    </exit>
+    <callback>
+        <element taskType="EcStateStopNs::CallbackSubroutine" taskId="0" taskName="EcStateStopNs::CallbackSubroutine_name" taskPath="EcStateStopNs::CallbackSubroutine_path">
+        </element>
+    </callback>
+    <transition>
+        <element taskType="EcStateStopNs::TransitionSubroutine" taskId="0" taskName="EcStateStopNs::TransitionSubroutine_name" taskPath="EcStateStopNs::TransitionSubroutine_path">
+            <dseEStopTrig          key="E_STOP_TRIG"          path="/group_2/task/user/user1" value="0" overwrite="1"/>
+            <dseEStopClear         key="E_STOP_CLEAR"         path="/group_2/task/user/user1" value="0" overwrite="1"/>
+            <dseDisableTrig        key="DISABLE_TRIG"         path="/group_2/task/user/user1" value="0" overwrite="1"/>
+            <dseClearFaultTrig     key="CLEAR_FAULT_TRIG"     path="/group_2/task/user/user1" value="0" overwrite="1"/>
+            <dseClearQuickStopTrig key="CLEAR_QUICKSTOP_TRIG" path="/group_2/task/user/user1" value="0" overwrite="1"/>
+            <dseEnableTrig         key="ENABLE_TRIG"          path="/group_2/task/user/user1" value="0" overwrite="1"/>
+            <dseReadyTrig          key="READY_TRIG"           path="/group_2/task/user/user1" value="0" overwrite="1"/>
+            <dseCustomStateTrig    key="CUSTOM_STATE_TRIG"    path="/group_2/task/user/user1" value="0" overwrite="1"/>
+            <dseStopTrig           key="STOP_TRIG"            path="/group_2/task/user/user1" value="0" overwrite="1"/>
+        </element>
+    </transition>
+</element>
+<element taskType="FAULT" taskId="109" taskName="FAULT" taskPath="/group_2/task/fsm/FAULT">
+    <entry>
+        <element taskType="EcStateFaultNs::OnEntrySubroutine" taskId="0" taskName="EcStateFaultNs::OnEntrySubroutine_name" taskPath="EcStateFaultNs::OnEntrySubroutine_path">
+        </element>
+    </entry>
+    <exit>
+        <element taskType="EcStateFaultNs::OnExitSubroutine" taskId="0" taskName="EcStateFaultNs::OnExitSubroutine_name" taskPath="EcStateFaultNs::OnExitSubroutine_path">
+        </element>
+    </exit>
+    <callback>
+        <element taskType="EcStateFaultNs::CallbackSubroutine" taskId="0" taskName="EcStateFaultNs::CallbackSubroutine_name" taskPath="EcStateFaultNs::CallbackSubroutine_path">
+        </element>
+    </callback>
+    <transition>
+        <element taskType="EcStateFaultNs::TransitionSubroutine" taskId="0" taskName="EcStateFaultNs::TransitionSubroutine_name" taskPath="EcStateFaultNs::TransitionSubroutine_path">
+            <dseEStopTrig          key="E_STOP_TRIG"          path="/group_2/task/user/user1" value="false" overwrite="true"/>
+            <dseEStopClear         key="E_STOP_CLEAR"         path="/group_2/task/user/user1" value="false" overwrite="true"/>
+            <dseDisableTrig        key="DISABLE_TRIG"         path="/group_2/task/user/user1" value="false" overwrite="true"/>
+            <dseClearFaultTrig     key="CLEAR_FAULT_TRIG"     path="/group_2/task/user/user1" value="false" overwrite="true"/>
+            <dseClearQuickStopTrig key="CLEAR_QUICKSTOP_TRIG" path="/group_2/task/user/user1" value="false" overwrite="true"/>
+            <dseEnableTrig         key="ENABLE_TRIG"          path="/group_2/task/user/user1" value="false" overwrite="true"/>
+            <dseReadyTrig          key="READY_TRIG"           path="/group_2/task/user/user1" value="false" overwrite="true"/>
+            <dseCustomStateTrig    key="CUSTOM_STATE_TRIG"    path="/group_2/task/user/user1" value="false" overwrite="true"/>
+            <dseStopTrig           key="STOP_TRIG"            path="/group_2/task/user/user1" value="false" overwrite="true"/>
+        </element>
+    </transition>
+</element>
+<element taskType="CLEARING_FAULT" taskId="110" taskName="CLEARING_FAULT" taskPath="/group_2/task/fsm/CLEARING_FAULT">
+    <entry>
+        <element taskType="EcStateClearingFaultNs::OnEntrySubroutine" taskId="0" taskName="EcStateClearingFaultNs::OnEntrySubroutine_name" taskPath="EcStateClearingFaultNs::OnEntrySubroutine_path">
+        </element>
+    </entry>
+    <exit>
+        <element taskType="EcStateClearingFaultNs::OnExitSubroutine" taskId="0" taskName="EcStateClearingFaultNs::OnExitSubroutine_name" taskPath="EcStateClearingFaultNs::OnExitSubroutine_path">
+        </element>
+    </exit>
+    <callback>
+        <element taskType="EcStateClearingFaultNs::CallbackSubroutine" taskId="0" taskName="EcStateClearingFaultNs::CallbackSubroutine_name" taskPath="EcStateClearingFaultNs::CallbackSubroutine_path">
+        </element>
+    </callback>
+    <transition>
+        <element taskType="EcStateClearingFaultNs::TransitionSubroutine" taskId="0" taskName="EcStateClearingFaultNs::TransitionSubroutine_name" taskPath="EcStateClearingFaultNs::TransitionSubroutine_path">
+            <dseEStopTrig          key="E_STOP_TRIG"          path="/group_2/task/user/user1" value="false" overwrite="true"/>
+            <dseEStopClear         key="E_STOP_CLEAR"         path="/group_2/task/user/user1" value="false" overwrite="true"/>
+            <dseDisableTrig        key="DISABLE_TRIG"         path="/group_2/task/user/user1" value="false" overwrite="true"/>
+            <dseClearFaultTrig     key="CLEAR_FAULT_TRIG"     path="/group_2/task/user/user1" value="false" overwrite="true"/>
+            <dseClearQuickStopTrig key="CLEAR_QUICKSTOP_TRIG" path="/group_2/task/user/user1" value="false" overwrite="true"/>
+            <dseEnableTrig         key="ENABLE_TRIG"          path="/group_2/task/user/user1" value="false" overwrite="true"/>
+            <dseReadyTrig          key="READY_TRIG"           path="/group_2/task/user/user1" value="false" overwrite="true"/>
+            <dseCustomStateTrig    key="CUSTOM_STATE_TRIG"    path="/group_2/task/user/user1" value="false" overwrite="true"/>
+            <dseStopTrig           key="STOP_TRIG"            path="/group_2/task/user/user1" value="false" overwrite="true"/>
+        </element>
+    </transition>
+</element>
+<element taskType="E_STOP" taskId="111" taskName="E_STOP" taskPath="/group_2/task/fsm/E_STOP">
+    <entry>
+        <element taskType="EcStateEStopNs::OnEntrySubroutine" taskId="0" taskName="EcStateEStopNs::OnEntrySubroutine_name" taskPath="EcStateEStopNs::OnEntrySubroutine_path">
+        </element>
+    </entry>
+    <exit>
+        <element taskType="EcStateEStopNs::OnExitSubroutine" taskId="0" taskName="EcStateEStopNs::OnExitSubroutine_name" taskPath="EcStateEStopNs::OnExitSubroutine_path">
+        </element>
+    </exit>
+    <callback>
+        <element taskType="EcStateEStopNs::CallbackSubroutine" taskId="0" taskName="EcStateEStopNs::CallbackSubroutine_name" taskPath="EcStateEStopNs::CallbackSubroutine_path">
+        </element>
+    </callback>
+    <transition>
+        <element taskType="EcStateEStopNs::TransitionSubroutine" taskId="0" taskName="EcStateEStopNs::TransitionSubroutine_name" taskPath="EcStateEStopNs::TransitionSubroutine_path">
+            <dseEStopTrig          key="E_STOP_TRIG"          path="/group_2/task/user/user1" value="false" overwrite="true"/>
+            <dseEStopClear         key="E_STOP_CLEAR"         path="/group_2/task/user/user1" value="false" overwrite="true"/>
+            <dseDisableTrig        key="DISABLE_TRIG"         path="/group_2/task/user/user1" value="false" overwrite="true"/>
+            <dseClearFaultTrig     key="CLEAR_FAULT_TRIG"     path="/group_2/task/user/user1" value="false" overwrite="true"/>
+            <dseClearQuickStopTrig key="CLEAR_QUICKSTOP_TRIG" path="/group_2/task/user/user1" value="false" overwrite="true"/>
+            <dseEnableTrig         key="ENABLE_TRIG"          path="/group_2/task/user/user1" value="false" overwrite="true"/>
+            <dseReadyTrig          key="READY_TRIG"           path="/group_2/task/user/user1" value="false" overwrite="true"/>
+            <dseCustomStateTrig    key="CUSTOM_STATE_TRIG"    path="/group_2/task/user/user1" value="false" overwrite="true"/>
+            <dseStopTrig           key="STOP_TRIG"            path="/group_2/task/user/user1" value="false" overwrite="true"/>
+        </element>
+    </transition>
+</element>
+<element taskType="CLEARING_E_STOP" taskId="112" taskName="CLEARING_E_STOP" taskPath="/group_2/task/fsm/CLEARING_E_STOP">
+    <entry>
+        <element taskType="EcStateClearingEStopNs::OnEntrySubroutine" taskId="0" taskName="EcStateClearingEStopNs::OnEntrySubroutine_name" taskPath="EcStateClearingEStopNs::OnEntrySubroutine_path">
+        </element>
+    </entry>
+    <exit>
+        <element taskType="EcStateClearingEStopNs::OnExitSubroutine" taskId="0" taskName="EcStateClearingEStopNs::OnExitSubroutine_name" taskPath="EcStateClearingEStopNs::OnExitSubroutine_path">
+        </element>
+    </exit>
+    <callback>
+        <element taskType="EcStateClearingEStopNs::CallbackSubroutine" taskId="0" taskName="EcStateClearingEStopNs::CallbackSubroutine_name" taskPath="EcStateClearingEStopNs::CallbackSubroutine_path">
+        </element>
+    </callback>
+    <transition>
+        <element taskType="EcStateClearingEStopNs::TransitionSubroutine" taskId="0" taskName="EcStateClearingEStopNs::TransitionSubroutine_name" taskPath="EcStateClearingEStopNs::TransitionSubroutine_path">
+            <dseEStopTrig          key="E_STOP_TRIG"          path="/group_2/task/user/user1" value="false" overwrite="true"/>
+            <dseEStopClear         key="E_STOP_CLEAR"         path="/group_2/task/user/user1" value="false" overwrite="true"/>
+            <dseDisableTrig        key="DISABLE_TRIG"         path="/group_2/task/user/user1" value="false" overwrite="true"/>
+            <dseClearFaultTrig     key="CLEAR_FAULT_TRIG"     path="/group_2/task/user/user1" value="false" overwrite="true"/>
+            <dseClearQuickStopTrig key="CLEAR_QUICKSTOP_TRIG" path="/group_2/task/user/user1" value="false" overwrite="true"/>
+            <dseEnableTrig         key="ENABLE_TRIG"          path="/group_2/task/user/user1" value="false" overwrite="true"/>
+            <dseReadyTrig          key="READY_TRIG"           path="/group_2/task/user/user1" value="false" overwrite="true"/>
+            <dseCustomStateTrig    key="CUSTOM_STATE_TRIG"    path="/group_2/task/user/user1" value="false" overwrite="true"/>
+            <dseStopTrig           key="STOP_TRIG"            path="/group_2/task/user/user1" value="false" overwrite="true"/>
+        </element>
+    </transition>
+</element>
+<element taskType="QUICK_STOP" taskId="113" taskName="QUICK_STOP" taskPath="/group_2/task/fsm/QUICK_STOP">
+    <entry>
+        <element taskType="EcStateQuickStopNs::OnEntrySubroutine" taskId="0" taskName="EcStateQuickStopNs::OnEntrySubroutine_name" taskPath="EcStateQuickStopNs::OnEntrySubroutine_path">
+        </element>
+    </entry>
+    <exit>
+        <element taskType="EcStateQuickStopNs::OnExitSubroutine" taskId="0" taskName="EcStateQuickStopNs::OnExitSubroutine_name" taskPath="EcStateQuickStopNs::OnExitSubroutine_path">
+        </element>
+    </exit>
+    <callback>
+        <element taskType="EcStateQuickStopNs::CallbackSubroutine" taskId="0" taskName="EcStateQuickStopNs::CallbackSubroutine_name" taskPath="EcStateQuickStopNs::CallbackSubroutine_path">
+        </element>
+    </callback>
+    <transition>
+        <element taskType="EcStateQuickStopNs::TransitionSubroutine" taskId="0" taskName="EcStateQuickStopNs::TransitionSubroutine_name" taskPath="EcStateQuickStopNs::TransitionSubroutine_path">
+            <dseEStopTrig          key="E_STOP_TRIG"          path="/group_2/task/user/user1" value="0" overwrite="1"/>
+            <dseEStopClear         key="E_STOP_CLEAR"         path="/group_2/task/user/user1" value="0" overwrite="1"/>
+            <dseDisableTrig        key="DISABLE_TRIG"         path="/group_2/task/user/user1" value="0" overwrite="1"/>
+            <dseClearFaultTrig     key="CLEAR_FAULT_TRIG"     path="/group_2/task/user/user1" value="0" overwrite="1"/>
+            <dseClearQuickStopTrig key="CLEAR_QUICKSTOP_TRIG" path="/group_2/task/user/user1" value="0" overwrite="1"/>
+            <dseEnableTrig         key="ENABLE_TRIG"          path="/group_2/task/user/user1" value="0" overwrite="1"/>
+            <dseReadyTrig          key="READY_TRIG"           path="/group_2/task/user/user1" value="0" overwrite="1"/>
+            <dseCustomStateTrig    key="CUSTOM_STATE_TRIG"    path="/group_2/task/user/user1" value="0" overwrite="1"/>
+            <dseStopTrig           key="STOP_TRIG"            path="/group_2/task/user/user1" value="0" overwrite="1"/>
+        </element>
+    </transition>
+</element>
+<element taskType="CLEARING_QUICK_STOP" taskId="114" taskName="CLEARING_QUICK_STOP" taskPath="/group_2/task/fsm/CLEARING_QUICK_STOP">
+    <entry>
+        <element taskType="EcStateClearingQuickStopNs::OnEntrySubroutine" taskId="0" taskName="EcStateClearingQuickStopNs::OnEntrySubroutine_name" taskPath="EcStateClearingQuickStopNs::OnEntrySubroutine_path">
+        </element>
+    </entry>
+    <exit>
+        <element taskType="EcStateClearingQuickStopNs::OnExitSubroutine" taskId="0" taskName="EcStateClearingQuickStopNs::OnExitSubroutine_name" taskPath="EcStateClearingQuickStopNs::OnExitSubroutine_path">
+        </element>
+    </exit>
+    <callback>
+        <element taskType="EcStateClearingQuickStopNs::CallbackSubroutine" taskId="0" taskName="EcStateClearingQuickStopNs::CallbackSubroutine_name" taskPath="EcStateClearingQuickStopNs::CallbackSubroutine_path">
+        </element>
+    </callback>
+    <transition>
+        <element taskType="EcStateClearingQuickStopNs::TransitionSubroutine" taskId="0" taskName="EcStateClearingQuickStopNs::TransitionSubroutine_name" taskPath="EcStateClearingQuickStopNs::TransitionSubroutine_path">
+            <dseEStopTrig          key="E_STOP_TRIG"          path="/group_2/task/user/user1" value="0" overwrite="1"/>
+            <dseEStopClear         key="E_STOP_CLEAR"         path="/group_2/task/user/user1" value="0" overwrite="1"/>
+            <dseDisableTrig        key="DISABLE_TRIG"         path="/group_2/task/user/user1" value="0" overwrite="1"/>
+            <dseClearFaultTrig     key="CLEAR_FAULT_TRIG"     path="/group_2/task/user/user1" value="0" overwrite="1"/>
+            <dseClearQuickStopTrig key="CLEAR_QUICKSTOP_TRIG" path="/group_2/task/user/user1" value="0" overwrite="1"/>
+            <dseEnableTrig         key="ENABLE_TRIG"          path="/group_2/task/user/user1" value="0" overwrite="1"/>
+            <dseReadyTrig          key="READY_TRIG"           path="/group_2/task/user/user1" value="0" overwrite="1"/>
+            <dseCustomStateTrig    key="CUSTOM_STATE_TRIG"    path="/group_2/task/user/user1" value="0" overwrite="1"/>
+            <dseStopTrig           key="STOP_TRIG"            path="/group_2/task/user/user1" value="0" overwrite="1"/>
+        </element>
+    </transition>
+</element>
+<element taskType="STATE_X" taskId="115" taskName="STATE_X" taskPath="/group_2/task/fsm/STATE_X">
+    <entry>
+        <element taskType="EcStateXNs::OnEntrySubroutine" taskId="0" taskName="EcStateXNs::OnEntrySubroutine_name" taskPath="EcStateXNs::OnEntrySubroutine_path">
+        </element>
+    </entry>
+    <exit>
+        <element taskType="EcStateXNs::OnExitSubroutine" taskId="0" taskName="EcStateXNs::OnExitSubroutine_name" taskPath="EcStateXNs::OnExitSubroutine_path">
+        </element>
+    </exit>
+    <callback>
+        <element taskType="EcStateXNs::CallbackSubroutine" taskId="0" taskName="EcStateXNs::CallbackSubroutine_name" taskPath="EcStateXNs::CallbackSubroutine_path">
+            <dseActualPosition        key="ACTUAL_POSITION"          path="/group_1/task/ethercat/servo/motor_5_den_net_e" value="0"     overwrite="0"/>
+            <dseCommandPosition       key="COMMAND_POSITION"         path="/group_1/task/ethercat/servo/motor_5_den_net_e" value="0"     overwrite="0"/>
+            <dseTiLimitSwitchPressed  key="TI_LIMIT_SWITCH_PRESSED"  path="/group_1/task/ethercat/servo/motor_5_den_net_e" value="false" overwrite="0"/>
+            <dseTiClutchButtonPressed key="TI_CLUTCH_BUTTON_PRESSED" path="/group_1/task/ethercat/servo/motor_5_den_net_e" value="false" overwrite="0"/>
+            <actualPosition>0</actualPosition>
+            <commandPosition>0</commandPosition>
+            <tiLimitSwitchPressed>false</tiLimitSwitchPressed>
+            <tiClutchButtonPressed>false</tiClutchButtonPressed>
+        </element>
+    </callback>
+    <transition>
+        <element taskType="EcStateXNs::TransitionSubroutine" taskId="0" taskName="EcStateXNs::TransitionSubroutine_name" taskPath="EcStateXNs::TransitionSubroutine_path">
+            <dseEStopTrig          key="E_STOP_TRIG"          path="/group_2/task/user/user1" value="0" overwrite="1"/>
+            <dseEStopClear         key="E_STOP_CLEAR"         path="/group_2/task/user/user1" value="0" overwrite="1"/>
+            <dseDisableTrig        key="DISABLE_TRIG"         path="/group_2/task/user/user1" value="0" overwrite="1"/>
+            <dseClearFaultTrig     key="CLEAR_FAULT_TRIG"     path="/group_2/task/user/user1" value="0" overwrite="1"/>
+            <dseClearQuickStopTrig key="CLEAR_QUICKSTOP_TRIG" path="/group_2/task/user/user1" value="0" overwrite="1"/>
+            <dseEnableTrig         key="ENABLE_TRIG"          path="/group_2/task/user/user1" value="0" overwrite="1"/>
+            <dseReadyTrig          key="READY_TRIG"           path="/group_2/task/user/user1" value="0" overwrite="1"/>
+            <dseCustomStateTrig    key="CUSTOM_STATE_TRIG"    path="/group_2/task/user/user1" value="0" overwrite="1"/>
+            <dseStopTrig           key="STOP_TRIG"            path="/group_2/task/user/user1" value="0" overwrite="1"/>
+        </element>
+    </transition>
+</element>

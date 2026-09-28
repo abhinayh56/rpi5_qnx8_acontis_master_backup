@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config_data>
+    <shm>
+        <element>
+            <name>MyShmA</name>
+            <size>4096</size>
+            <layout>
+                <include file="shmLayout_1.xml" />
+            </layout>
+        </element>
+        <element>
+            <name>MyShmB</name>
+            <size>1024</size>
+            <layout>
+                <include file="shmLayout_2.xml" />
+            </layout>
+        </element>
+        <element>
+            <name>MyShmC</name>
+            <size>101</size>
+            <layout>
+                <include file="shmLayout_2.xml" />
+            </layout>
+        </element>
+        <element>
+            <name>MyShmD</name>
+            <size>151</size>
+            <layout>
+                <include file="shmLayout_2.xml" />
+            </layout>
+        </element>
+        <element>
+            <name>MyShmE</name>
+            <size>251</size>
+            <layout>
+                <include file="shmLayout_2.xml" />
+            </layout>
+        </element>
+    </shm>
+
+    <taskGroup>
+        <element>
+            <taskEthercatSlave>
+                <include file="taskEthercatSlave_1.xml" />
+            </taskEthercatSlave>
+            <taskEthercatSlaveServo>
+                <include file="taskEthercatSlaveServo_1.xml" />
+            </taskEthercatSlaveServo>
+            <taskRobotControl>
+                <include file="taskRobotControl_1.xml" />
+            </taskRobotControl>
+            <taskUser>
+                <include file="taskUser_1.xml" />
+            </taskUser>
+            <taskState>
+                <include file="taskFsm_1.xml" />
+            </taskState>
+        </element>
+        <element>
+            <taskEthercatSlave>
+                <include file="taskEthercatSlave_2.xml" />
+            </taskEthercatSlave>
+            <taskEthercatSlaveServo>
+                <include file="taskEthercatSlaveServo_2.xml" />
+            </taskEthercatSlaveServo>
+            <taskRobotControl>
+                <include file="taskRobotControl_2.xml" />
+            </taskRobotControl>
+            <taskUser>
+                <include file="taskUser_2.xml" />
+            </taskUser>
+            <taskState>
+                <include file="taskFsm_2.xml" />
+            </taskState>
+        </element>
+    </taskGroup>
+</config_data>

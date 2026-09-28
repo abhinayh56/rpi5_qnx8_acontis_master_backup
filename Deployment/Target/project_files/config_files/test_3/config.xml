@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<taskGroup>
+    <element>
+        <taskEthercatSlave>
+            <include file="taskEthercatSlave_1.xml" />
+        </taskEthercatSlave>
+        <taskEthercatSlaveServo>
+            <include file="taskEthercatSlaveServo_1.xml" />
+        </taskEthercatSlaveServo>
+        <taskRobotControl>
+            <include file="taskRobotControl_1.xml" />
+        </taskRobotControl>
+        <taskUser>
+            <include file="taskUser_1.xml" />
+        </taskUser>
+        <taskState>
+            <include file="taskFsm_1.xml" />
+        </taskState>
+        <taskInterface>
+            <include file="taskInterface_1.xml" />
+        </taskInterface>
+    </element>
+    <element>
+        <taskEthercatSlave>
+            <include file="taskEthercatSlave_2.xml" />
+        </taskEthercatSlave>
+        <taskEthercatSlaveServo>
+            <include file="taskEthercatSlaveServo_2.xml" />
+        </taskEthercatSlaveServo>
+        <taskRobotControl>
+            <include file="taskRobotControl_2.xml" />
+        </taskRobotControl>
+        <taskUser>
+            <include file="taskUser_2.xml" />
+        </taskUser>
+        <taskState>
+            <include file="taskFsm_2.xml" />
+        </taskState>
+        <taskInterface>
+            <include file="taskInterface_2.xml" />
+        </taskInterface>
+    </element>
+</taskGroup>

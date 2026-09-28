@@ -1,0 +1,64 @@
+<element taskType="Ipos2401MxCat" taskId="1" taskName="motor_1_ipos2401" taskPath="/group_2/task/ethercat/servo/motor_1_ipos2401">
+    <slaveAddress>1011</slaveAddress>
+    <slaveName>"motor_6_ipos2401"</slaveName>
+    <offsetPosition>0</offsetPosition>
+    <offsetVelocity>05</offsetVelocity>
+    <offsetTorque>0349</offsetTorque>
+    <factorPosition>14198.352529577903771837597148174</factorPosition>
+    <factorVelocity>1.2798</factorVelocity>
+    <factorTorque>-1.008</factorTorque>
+    <dseActualPosition  key="ACTUAL_POSITION"  path="/group_2/task/ethercat/servo/motor_1_ipos2401" value="0" overwrite="1"/>
+    <dseActualVelocity  key="ACTUAL_VELOCITY"  path="/group_2/task/ethercat/servo/motor_1_ipos2401" value="0" overwrite="1"/>
+    <dseActualTorque    key="ACTUAL_TORQUE"    path="/group_2/task/ethercat/servo/motor_1_ipos2401" value="0" overwrite="1"/>
+    <dseCommandPosition key="COMMAND_POSITION" path="/group_2/task/ethercat/servo/motor_1_ipos2401" value="0" overwrite="1"/>
+    <dseCommandVelocity key="COMMAND_VELOCITY" path="/group_2/task/ethercat/servo/motor_1_ipos2401" value="0" overwrite="1"/>
+    <dseCommandTorque   key="COMMAND_TORQUE"   path="/group_2/task/ethercat/servo/motor_1_ipos2401" value="0" overwrite="1"/>
+</element>
+<element taskType="Ipos2401MxCat" taskId="2" taskName="motor_2_ipos2401" taskPath="/group_2/task/ethercat/servo/motor_2_ipos2401">
+    <slaveAddress>1012</slaveAddress>
+    <slaveName>"motor_7_ipos2401"</slaveName>
+    <offsetPosition>0</offsetPosition>
+    <offsetVelocity>0</offsetVelocity>
+    <offsetTorque>0</offsetTorque>
+    <factorPosition>14198.352529577903771837597148174</factorPosition>
+    <factorVelocity>1.0</factorVelocity>
+    <factorTorque>1.0</factorTorque>
+    <dseActualPosition  key="ACTUAL_POSITION"  path="/group_2/task/ethercat/servo/motor_2_ipos2401" value="0" overwrite="1"/>
+    <dseActualVelocity  key="ACTUAL_VELOCITY"  path="/group_2/task/ethercat/servo/motor_2_ipos2401" value="0" overwrite="1"/>
+    <dseActualTorque    key="ACTUAL_TORQUE"    path="/group_2/task/ethercat/servo/motor_2_ipos2401" value="0" overwrite="1"/>
+    <dseCommandPosition key="COMMAND_POSITION" path="/group_2/task/ethercat/servo/motor_2_ipos2401" value="0" overwrite="1"/>
+    <dseCommandVelocity key="COMMAND_VELOCITY" path="/group_2/task/ethercat/servo/motor_2_ipos2401" value="0" overwrite="1"/>
+    <dseCommandTorque   key="COMMAND_TORQUE"   path="/group_2/task/ethercat/servo/motor_2_ipos2401" value="0" overwrite="1"/>
+</element>
+<element taskType="Ipos2401MxCat" taskId="3" taskName="motor_3_ipos2401" taskPath="/group_2/task/ethercat/servo/motor_3_ipos2401">
+    <slaveAddress>1014</slaveAddress>
+    <slaveName>"motor_8_ipos2401"</slaveName>
+    <offsetPosition>0</offsetPosition>
+    <offsetVelocity>0</offsetVelocity>
+    <offsetTorque>0</offsetTorque>
+    <factorPosition>14198.352529577903771837597148174</factorPosition>
+    <factorVelocity>1.0</factorVelocity>
+    <factorTorque>1.0</factorTorque>
+    <dseActualPosition  key="ACTUAL_POSITION"  path="/group_2/task/ethercat/servo/motor_3_ipos2401" value="0" overwrite="1"/>
+    <dseActualVelocity  key="ACTUAL_VELOCITY"  path="/group_2/task/ethercat/servo/motor_3_ipos2401" value="0" overwrite="1"/>
+    <dseActualTorque    key="ACTUAL_TORQUE"    path="/group_2/task/ethercat/servo/motor_3_ipos2401" value="0" overwrite="1"/>
+    <dseCommandPosition key="COMMAND_POSITION" path="/group_2/task/ethercat/servo/motor_3_ipos2401" value="0" overwrite="1"/>
+    <dseCommandVelocity key="COMMAND_VELOCITY" path="/group_2/task/ethercat/servo/motor_3_ipos2401" value="0" overwrite="1"/>
+    <dseCommandTorque   key="COMMAND_TORQUE"   path="/group_2/task/ethercat/servo/motor_3_ipos2401" value="0" overwrite="1"/>
+</element>
+<element taskType="Ipos2401MxCat" taskId="4" taskName="motor_4_ipos2401" taskPath="/group_2/task/ethercat/servo/motor_4_ipos2401">
+    <slaveAddress>1015</slaveAddress>
+    <slaveName>"motor_9_ipos2401"</slaveName>
+    <offsetPosition>0</offsetPosition>
+    <offsetVelocity>0</offsetVelocity>
+    <offsetTorque>0</offsetTorque>
+    <factorPosition>14198.352529577903771837597148174</factorPosition>
+    <factorVelocity>1.0</factorVelocity>
+    <factorTorque>1.0</factorTorque>
+    <dseActualPosition  key="ACTUAL_POSITION"  path="/group_2/task/ethercat/servo/motor_4_ipos2401" value="0" overwrite="1"/>
+    <dseActualVelocity  key="ACTUAL_VELOCITY"  path="/group_2/task/ethercat/servo/motor_4_ipos2401" value="0" overwrite="1"/>
+    <dseActualTorque    key="ACTUAL_TORQUE"    path="/group_2/task/ethercat/servo/motor_4_ipos2401" value="0" overwrite="1"/>
+    <dseCommandPosition key="COMMAND_POSITION" path="/group_2/task/ethercat/servo/motor_4_ipos2401" value="0" overwrite="1"/>
+    <dseCommandVelocity key="COMMAND_VELOCITY" path="/group_2/task/ethercat/servo/motor_4_ipos2401" value="0" overwrite="1"/>
+    <dseCommandTorque   key="COMMAND_TORQUE"   path="/group_2/task/ethercat/servo/motor_4_ipos2401" value="0" overwrite="1"/>
+</element>

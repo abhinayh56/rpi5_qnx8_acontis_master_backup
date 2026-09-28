@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Config>
+  <MotionDemo>
+    <!--Parameters MotionDemo-->
+    <NoDCMBusShift>
+      <!--Disable DCM bus shift controller-->0</NoDCMBusShift>
+    <DCMCtlSetVal>
+      <!--DCMCtlSetVal: DCM controller set value in nanosec-->500000</DCMCtlSetVal>
+    <CmdMode>
+      <!--Enable command mode: Demo gets commands from EC-STA-->0</CmdMode>
+    <Drive1>
+      <Address>
+        <!--EtherCAT address e. g. 1001-->1001</Address>
+      <OperationMode>
+        <!--Mode of Operation, Index 0x6060-->8</OperationMode>
+      <IncPerMM>
+        <!--Increments per mm-->10000</IncPerMM>
+      <Acc>
+        <!--Acceleration mm/sec^2-->800</Acc>
+      <Dec>
+        <!--Deceleration mm/sec^2-->1000</Dec>
+      <Jerk>
+        <!--Jerk mm/sec^3-->0</Jerk>
+      <Vel>
+        <!--Velocity mm/sec-->2000</Vel>
+      <Distance>
+        <!--Distance mm-->100</Distance>
+      <PositionWindow>
+        <!--In Position Window [INC]-->10</PositionWindow>
+      <VelocityGain>
+        <!--Gain-->25</VelocityGain>
+      <TorqueGain>
+        <!--Gain-->0</TorqueGain>
+      <IdxStatus>
+        <!--Index Statusword: Default 0x6041-->0x6041</IdxStatus>
+      <IdxControl>
+        <!--Index Controlword: Default 0x6040 -->0x6040</IdxControl>
+      <IdxPosact>
+        <!--Index Position actual: Default 0x6064 -->0x6064</IdxPosact>
+      <IdxTargetpos>
+        <!--Index Target Position: Default 0x607A -->0x607A</IdxTargetpos>
+      <IdxTargetvel>
+        <!--Index Target Velocity: Default 0x60FF -->0x60FF</IdxTargetvel>
+      <IdxMode>
+        <!--Index Mode of Operation: Default 0x6060 -->0x6060</IdxMode>
+    </Drive1>
+    <Drive2>
+      <Address>
+        <!--EtherCAT address: Not used=0-->0
+      </Address>
+      <OperationMode>
+        <!--Mode of Operation, Index 0x6060-->8
+      </OperationMode>
+      <IncPerMM>
+        <!--Increments per mm-->10000
+      </IncPerMM>
+      <Acc>
+        <!--Acceleration mm/sec^2-->800
+      </Acc>
+      <Dec>
+        <!--Deceleration mm/sec^2-->1000
+      </Dec>
+      <Jerk>
+        <!--Jerk mm/sec^3-->0
+      </Jerk>
+      <Vel>
+        <!--Velocity mm/sec-->2000
+      </Vel>
+      <Distance>
+        <!--Distance mm-->100
+      </Distance>
+      <PositionWindow>
+        <!--In Position Window [INC]-->10</PositionWindow>
+      <VelocityGain>
+        <!--Gain-->25</VelocityGain>
+      <TorqueGain>
+        <!--Gain-->0</TorqueGain>
+      <IdxStatus>
+        <!--Index Statusword: Default 0x6041-->0x6041</IdxStatus>
+      <IdxControl>
+        <!--Index Controlword: Default 0x6040 -->0x6040</IdxControl>
+      <IdxPosact>
+        <!--Index Position actual: Default 0x6064 -->0x6064</IdxPosact>
+      <IdxTargetpos>
+        <!--Index Target Position: Default 0x607A -->0x607A</IdxTargetpos>
+      <IdxTargetvel>
+        <!--Index Target Velocity: Default 0x60FF -->0x60FF</IdxTargetvel>
+      <IdxMode>
+        <!--Index Mode of Operation: Default 0x6060 -->0x6060</IdxMode>
+    </Drive2>
+  </MotionDemo>
+</Config>

@@ -1,0 +1,8 @@
+STATE=Desktop
+INSTALLDIR=aarch64le/bin/
+INSTALLNAME=mbox-bcm
+NAME=mbox-bcm
+USER=Dell
+HOST=SSIPLIT1128
+DATE=2026/09/28-12:01:33-IST
+DESCRIPTION=Raspberry pi5 Mailbox utility

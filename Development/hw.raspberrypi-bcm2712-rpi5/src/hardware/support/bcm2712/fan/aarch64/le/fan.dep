@@ -1,0 +1,3 @@
+fan.o: \
+ C:/Users/Dell/ide-8.0-workspace/hw.raspberrypi-bcm2712-rpi5/src/hardware/support/bcm2712/fan/fan.c \
+ C:/Users/Dell/ide-8.0-workspace/hw.raspberrypi-bcm2712-rpi5/src/hardware/support/bcm2712/fan/proto.h

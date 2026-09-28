@@ -1,0 +1,7 @@
+pci_read_cfg16.o: \
+ C:/Users/Dell/ide-8.0-workspace/hw.raspberrypi-bcm2712-rpi5/src/hardware/startup/lib/pci_read_cfg16.c \
+ C:/Users/Dell/ide-8.0-workspace/hw.raspberrypi-bcm2712-rpi5/src/hardware/startup/lib/public/startup.h \
+ C:/Users/Dell/ide-8.0-workspace/hw.raspberrypi-bcm2712-rpi5/src/hardware/startup/lib/public/sys/startup.h \
+ C:/Users/Dell/ide-8.0-workspace/hw.raspberrypi-bcm2712-rpi5/src/hardware/startup/lib/public/aarch64/cpu_startup.h \
+ C:/Users/Dell/ide-8.0-workspace/hw.raspberrypi-bcm2712-rpi5/src/hardware/startup/lib/public/arm/armboth_startup.h \
+ C:/Users/Dell/ide-8.0-workspace/hw.raspberrypi-bcm2712-rpi5/src/hardware/startup/lib/public/sys/restore_ifs.h

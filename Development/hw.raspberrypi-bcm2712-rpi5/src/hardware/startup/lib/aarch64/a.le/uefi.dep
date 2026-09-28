@@ -1,0 +1,8 @@
+uefi.o: \
+ C:/Users/Dell/ide-8.0-workspace/hw.raspberrypi-bcm2712-rpi5/src/hardware/startup/lib/uefi.c \
+ C:/Users/Dell/ide-8.0-workspace/hw.raspberrypi-bcm2712-rpi5/src/hardware/startup/lib/public/startup.h \
+ C:/Users/Dell/ide-8.0-workspace/hw.raspberrypi-bcm2712-rpi5/src/hardware/startup/lib/public/sys/startup.h \
+ C:/Users/Dell/ide-8.0-workspace/hw.raspberrypi-bcm2712-rpi5/src/hardware/startup/lib/public/aarch64/cpu_startup.h \
+ C:/Users/Dell/ide-8.0-workspace/hw.raspberrypi-bcm2712-rpi5/src/hardware/startup/lib/public/arm/armboth_startup.h \
+ C:/Users/Dell/ide-8.0-workspace/hw.raspberrypi-bcm2712-rpi5/src/hardware/startup/lib/public/sys/restore_ifs.h \
+ C:/Users/Dell/ide-8.0-workspace/hw.raspberrypi-bcm2712-rpi5/src/hardware/startup/lib/public/hw/uefi.h

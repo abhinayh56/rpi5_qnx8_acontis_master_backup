@@ -1,0 +1,8 @@
+STATE=Desktop
+INSTALLDIR=aarch64le/bin/
+INSTALLNAME=gpio-aon-bcm
+NAME=gpio-aon-bcm
+USER=Dell
+HOST=SSIPLIT1128
+DATE=2026/09/28-12:01:30-IST
+DESCRIPTION=Raspberry Pi 5 gpio-aon-bcm utility

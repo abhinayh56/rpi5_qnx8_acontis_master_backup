@@ -1,0 +1,5 @@
+info.o: \
+ C:/Users/Dell/ide-8.0-workspace/hw.raspberrypi-bcm2712-rpi5/src/hardware/i2c/dwc/info.c \
+ C:/Users/Dell/ide-8.0-workspace/hw.raspberrypi-bcm2712-rpi5/src/hardware/i2c/dwc/proto.h \
+ C:/Users/Dell/ide-8.0-workspace/hw.raspberrypi-bcm2712-rpi5/src/hardware/i2c/dwc/dwc_i2c.h \
+ variant.h

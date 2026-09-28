@@ -1,0 +1,8 @@
+STATE=Desktop
+INSTALLDIR=aarch64le/bin/
+INSTALLNAME=gpio-bcm
+NAME=gpio-bcm
+USER=Dell
+HOST=SSIPLIT1128
+DATE=2026/09/28-12:01:31-IST
+DESCRIPTION=Raspberry pi5 RP1 gpio utility

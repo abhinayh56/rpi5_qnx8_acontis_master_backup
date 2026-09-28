@@ -1,0 +1,7 @@
+SRCS += $(wildcard $(DIR_TASK_USER)/EcTaskUserBase/*.cpp)
+SRCS += $(wildcard $(DIR_TASK_USER)/EcTaskUserFactory/*.cpp)
+SRCS += $(wildcard $(DIR_TASK_USER)/EcUser_1/*.cpp)
+SRCS += $(wildcard $(DIR_TASK_USER)/EcUser_2/*.cpp)
+SRCS += $(wildcard $(DIR_TASK_USER)/EcUser_3/*.cpp)
+SRCS += $(wildcard $(DIR_TASK_USER)/EcUser_4/*.cpp)
+SRCS += $(wildcard $(DIR_TASK_USER)/EcUser_5/*.cpp)

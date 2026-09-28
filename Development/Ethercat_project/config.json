@@ -1,0 +1,6 @@
+{
+    "name": "robot1",
+    "id": 10,
+    "enabled": true,
+    "voltage": 24.5
+}

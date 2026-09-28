@@ -1,0 +1,4 @@
+xfer.o: \
+ C:/Users/Dell/ide-8.0-workspace/hw.raspberrypi-bcm2712-rpi5/src/hardware/spi/dwc/xfer.c \
+ dwc_variant.h \
+ C:/Users/Dell/ide-8.0-workspace/hw.raspberrypi-bcm2712-rpi5/src/hardware/spi/dwc/dwc-spi.h

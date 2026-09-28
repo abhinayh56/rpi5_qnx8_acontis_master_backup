@@ -1,0 +1,8 @@
+STATE=Desktop
+INSTALLDIR=aarch64le/bin/
+INSTALLNAME=wdtkick
+NAME=wdtkick
+USER=Dell
+HOST=SSIPLIT1128
+DATE=2026/09/28-12:01:34-IST
+DESCRIPTION=Generic watchdog kick utility

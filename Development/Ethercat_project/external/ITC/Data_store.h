@@ -1,0 +1,174 @@
+#ifndef DATA_STORE_H_
+#define DATA_STORE_H_
+
+#include <map>
+#include <vector>
+#include <string>
+#include <cstring>
+#include <stdint.h>
+#include <iostream>
+#include <pthread.h>
+#include <sys/mman.h>
+
+class Data_store
+{
+public:
+    Data_store(const Data_store &) = delete;
+    Data_store &operator=(const Data_store &) = delete;
+    static Data_store &getInstance()
+    {
+        static Data_store instance;
+        return instance;
+    }
+
+    template <typename T>
+    inline bool register_element(const std::string &key_, const std::string &path_, T& data_, std::size_t size_, bool overwrite_, uint64_t &index_data, uint64_t &index_mutex)
+    {
+        std::cout << "---\n";
+        std::cout << "Registering data element in data_store\n";
+        std::cout << "\tkey      : " << key_ << "\n";
+        std::cout << "\tpath     : " << path_ << "\n";
+        std::cout << "\tsize     : " << size_ << "\n";
+        std::cout << "\toverwrite: " << overwrite_ << "\n";
+        std::cout << "\tavailable data_buffer : " << m_data_buffer.size() << std::endl;
+        std::cout << "\tavailable mutex_buffer: " << m_mutex_buffer.size() << std::endl;
+
+        if (m_offset_mutex >= m_mutex_buffer.size())
+        {
+            std::cout << "\tERROR: No mutex available" << std::endl;
+            return false;
+        }
+
+        pthread_mutex_lock(&m_mutex_buffer[0]);
+
+        std::string path_key = path_ + "/" + key_;
+        std::cout << "\tpath_key: " << path_key << "\n";
+
+        auto it = m_data_element_map.find(path_key);
+        uint64_t index_d = 0;
+        uint64_t index_m = 0;
+
+        if (it == m_data_element_map.end())
+        {
+            size_t alignment = alignof(T);
+            uint64_t m_offset_required = (m_offset_data + alignment - 1) & ~(alignment - 1);
+
+            size_t required_size = m_offset_required + size_;
+
+            if (required_size > m_data_buffer.size())
+            {
+                std::cout << "\tavailable data_buffer size: " << m_data_buffer.size() << ", required data_buffer size: " << required_size << std::endl;
+                std::cout << "\tresizing data_buffer size to " << required_size << std::endl;
+                m_data_buffer.resize(required_size);
+            }
+
+            index_d = m_offset_required;
+            index_m = m_offset_mutex;
+            m_data_element_map[path_key].index_data = index_d;
+            m_data_element_map[path_key].index_mutex = index_m;
+
+            pthread_mutexattr_t attr;
+            pthread_mutexattr_init(&attr);
+            pthread_mutexattr_setprotocol(&attr, PTHREAD_PRIO_INHERIT);
+            pthread_mutex_init(&m_mutex_buffer[index_m], &attr);
+            pthread_mutexattr_destroy(&attr);
+
+            std::cout << "\tData element set. index_d: " << index_d << ", Key: " << key_ << ", Path: " << path_ << ", Value: " << "data_" << std::endl;
+            m_offset_data = m_offset_required + size_;
+            m_offset_mutex += 1;
+            memcpy(&m_data_buffer[index_d], &data_, size_);
+        }
+        else
+        {
+            index_d = m_data_element_map[path_key].index_data;
+            index_m = m_data_element_map[path_key].index_mutex;
+            if (overwrite_)
+            {
+                memcpy(&m_data_buffer[index_d], &data_, size_);
+            }
+            else
+            {
+                memcpy(&data_, &m_data_buffer[index_d], size_);
+            }
+            std::cout << "\tdata element already set. index_d: " << index_d << ", Key: " << key_ << ", Path: " << path_ << ", Value: " << "data_" << std::endl;
+        }
+
+        index_data = index_d;
+        index_mutex = index_m;
+
+        pthread_mutex_unlock(&m_mutex_buffer[0]);
+
+        return true;
+    }
+
+    template <typename T>
+    inline bool get(uint64_t index_data, uint64_t index_mutex, T &data_, std::size_t size_)
+    {
+        if (pthread_mutex_trylock(&m_mutex_buffer[index_mutex]) == 0)
+        {
+            memcpy(&data_, &m_data_buffer[index_data], size_);
+            pthread_mutex_unlock(&m_mutex_buffer[index_mutex]);
+            return true;
+        }
+        return false;
+    }
+
+    template <typename T>
+    inline bool set(uint64_t index_data, uint64_t index_mutex, const T &data_, std::size_t size_)
+    {
+        if (pthread_mutex_trylock(&m_mutex_buffer[index_mutex]) == 0)
+        {
+            memcpy(&m_data_buffer[index_data], &data_, size_);
+            pthread_mutex_unlock(&m_mutex_buffer[index_mutex]);
+            return true;
+        }
+        return false;
+    }
+
+private:
+    Data_store()
+    {
+        if (mlockall(MCL_CURRENT | MCL_FUTURE) != 0)
+        {
+            std::cerr << "WARNING: Failed to lock memory with mlockall\n";
+        }
+        else
+        {
+            std::cout << "Locked memory with mlockall\n";
+        }
+
+        // m_data_buffer.reserve(1024);
+        m_data_buffer.resize(1024*5);
+        m_mutex_buffer.resize(1500*5);
+
+        pthread_mutexattr_t attr;
+        pthread_mutexattr_init(&attr);
+        pthread_mutexattr_setprotocol(&attr, PTHREAD_PRIO_INHERIT);
+        pthread_mutex_init(&m_mutex_buffer[0], &attr);
+        pthread_mutexattr_destroy(&attr);
+    }
+
+    ~Data_store()
+    {
+        for (auto &m : m_mutex_buffer)
+        {
+            pthread_mutex_destroy(&m);
+        }
+    }
+
+    struct Register_info
+    {
+        uint64_t index_data = 0;
+        uint64_t index_mutex = 0;
+    };
+
+    std::map<std::string, Register_info> m_data_element_map;
+    
+    std::vector<uint8_t> m_data_buffer;
+    std::vector<pthread_mutex_t> m_mutex_buffer;
+    
+    uint64_t m_offset_data = 0;
+    uint64_t m_offset_mutex = 1;
+};
+
+#endif // DATA_STORE_H

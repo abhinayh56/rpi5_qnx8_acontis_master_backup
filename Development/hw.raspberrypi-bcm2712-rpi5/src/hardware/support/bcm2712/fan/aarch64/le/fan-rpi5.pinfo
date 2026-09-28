@@ -1,0 +1,8 @@
+STATE=Desktop
+INSTALLDIR=aarch64le/sbin/
+INSTALLNAME=fan-rpi5
+NAME=fan-rpi5
+USER=Dell
+HOST=SSIPLIT1128
+DATE=2026/09/28-12:01:30-IST
+DESCRIPTION=Raspberry Pi5 fan control driver

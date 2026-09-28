@@ -1,0 +1,4 @@
+config.o: \
+ C:/Users/Dell/ide-8.0-workspace/hw.raspberrypi-bcm2712-rpi5/src/hardware/spi/dwc/config.c \
+ dwc_variant.h \
+ C:/Users/Dell/ide-8.0-workspace/hw.raspberrypi-bcm2712-rpi5/src/hardware/spi/dwc/dwc-spi.h
